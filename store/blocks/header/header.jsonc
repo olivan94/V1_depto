@@ -107,7 +107,6 @@
       "drawer",
       "logo#mobile",
       "flex-layout.col#spacer",
-      "login",
       "minicart.v2"
     ],
     "props": {
@@ -123,9 +122,14 @@
 
   "menu#drawer": {
     "children": [
-      "menu-item#category-apparel",
-      "menu-item#category-home",
-      "menu-item#more"
+      // "menu-item#category-eletronicos",
+      // "menu-item#category-celulares",
+      // "menu-item#category-informatica",
+      // "menu-item#category-casa",
+      // "menu-item#category-decor",
+      // "menu-item#category-beleza",
+      // "menu-item#category-midia",
+      // "menu-item#category-todos"
     ],
     "props": {
       "orientation": "vertical"
@@ -133,10 +137,10 @@
   },
 
   "logo#mobile": {
-    "props": {
+    "props": { 
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
+      "url": "assets/logo.png",
       "width": "70"
     }
   }
