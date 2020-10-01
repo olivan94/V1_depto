@@ -4,95 +4,20 @@
       "experimentalOptimizeRendering": true
     },
     "children": [
-      "menu-item#category-apparel",
-      "menu-item#category-home",
-      "menu-item#more"
+      "menu-item#category-todos",
+      "menu-item#category-eletronicos",
+      "menu-item#category-celulares",
+      "menu-item#category-informatica",
+      "menu-item#category-casa",
+      "menu-item#category-decor",
+      "menu-item#category-beleza",
+      "menu-item#category-midia"
     ]
   },
-  "menu-item#category-apparel": {
+
+  "menu-item#category-todos": {
     "props": {
-      "id": "menu-item-category-apparel",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/apparel---accessories/",
-        "noFollow": false,
-        "tagTitle": "Apparel & Accessories",
-        "text": "Apparel & Accessories"
-      }
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#category-apparel"
-    ]
-  },
-  "vtex.menu@2.x:submenu#category-apparel": {
-    "props": {
-      "width": "auto"
-    },
-    "children": [
-      "vtex.menu@2.x:menu#category-apparel"
-    ]
-  },
-  "vtex.menu@2.x:menu#category-apparel": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#category-apparel-clothing",
-      "menu-item#category-apparel-accessories",
-      "menu-item#category-apparel-eyeglasses"
-    ]
-  },
-  "menu-item#category-apparel-clothing": {
-    "props": {
-      "id": "menu-item-category-apparel-clothing",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/apparel---accessories/clothing/",
-        "noFollow": false,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
-      }
-    }
-  },
-  "menu-item#category-apparel-accessories": {
-    "props": {
-      "id": "menu-item-category-apparel-accessories",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/apparel---accessories/accessories/",
-        "noFollow": false,
-        "tagTitle": "Accessories",
-        "text": "Accessories"
-      }
-    }
-  },
-  "menu-item#category-apparel-eyeglasses": {
-    "props": {
-      "id": "menu-item-category-apparel-eyeglasses",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/apparel---accessories/eyeglasses/",
-        "noFollow": false,
-        "tagTitle": "Eyeglasses",
-        "text": "Eyeglasses"
-      }
-    }
-  },
-  "menu-item#category-home": {
-    "props": {
-      "id": "menu-item-category-home",
+      "id": "menu-item-category-todos",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -100,11 +25,549 @@
         "type": "internal",
         "href": "/home---decor/",
         "noFollow": false,
-        "tagTitle": "Home & Decor",
-        "text": "Home & Decor"
+        "tagTitle": "Todos os departamentos",
+        "text": "Todos os departamentos"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-todos"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-todos": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-todos"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-todos": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-todos-eletroHome",
+      "menu-item#category-todos-gamesPcgamer",
+      "menu-item#category-todos-celulares",
+      "menu-item#category-todos-midia",
+      "menu-item#category-todos-informatica",
+      "menu-item#category-todos-moda",
+      "menu-item#category-todos-esporte",
+      "menu-item#category-todos-moveis",
+      "menu-item#category-todos-beleza"
+    ]
+  },
+
+  "menu-item#category-todos-eletroHome": {
+    "props": {
+      "id": "menu-item-category-todos-eletroHome",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Eletrodomésticos e Casa",
+        "text": "Eletrodomésticos e Casa"
       }
     }
   },
+  "menu-item#category-todos-gamesPcgamer": {
+    "props": {
+      "id": "menu-item-category-todos-gamesPcgamer",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Games e PC Gamer",
+        "text": "Games e PC Gamer"
+      }
+    }
+  },
+  "menu-item#category-todos-celulares": {
+    "props": {
+      "id": "menu-item-category-todos-celulares",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Celulares",
+        "text": "Celulares"
+      }
+    }
+  },
+  "menu-item#category-todos-midia": {
+    "props": {
+      "id": "menu-item-category-todos-midia",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Tv, Áudio e Home Theater",
+        "text": "Tv, Áudio e Home Theater"
+      }
+    }
+  },
+  "menu-item#category-todos-informatica": {
+    "props": {
+      "id": "menu-item-category-todos-informatica",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Informática",
+        "text": "Informática"
+      }
+    }
+  },
+  "menu-item#category-todos-moda": {
+    "props": {
+      "id": "menu-item-category-todos-moda",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Moda",
+        "text": "Moda"
+      }
+    }
+  },
+  "menu-item#category-todos-esporte": {
+    "props": {
+      "id": "menu-item-category-todos-esporte",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Esporte e Suplementos",
+        "text": "Esporte e Suplementos"
+      }
+    }
+  },
+  "menu-item#category-todos-moveis": {
+    "props": {
+      "id": "menu-item-category-todos-moveis",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Móveis e Decoração",
+        "text": "Móveis e Decoração"
+      }
+    }
+  },
+  "menu-item#category-todos-beleza": {
+    "props": {
+      "id": "menu-item-category-todos-beleza",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Beleza e Perfumaria",
+        "text": "Beleza e Perfumaria"
+      }
+    }
+  },
+
+  "menu-item#category-eletronicos": {
+    "props": {
+      "id": "menu-item-category-eletronicos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/",
+        "noFollow": false,
+        "tagTitle": "Eletrônicos",
+        "text": "Eletrônicos"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-eletronicos"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-eletronicos": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-eletronicos"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-eletronicos": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-eletronicos-notebooks",
+      "menu-item#category-eletronicos-notebooks2",
+      "menu-item#category-eletronicos-noteGamer",
+      "menu-item#category-eletronicos-desk",
+      "menu-item#category-eletronicos-deskGamer",
+      "menu-item#category-eletronicos-allInOne",
+      "menu-item#category-eletronicos-apple",
+      "menu-item#category-eletronicos-smartHome",
+      "menu-item#category-eletronicos-multifunc",
+      "menu-item#category-eletronicos-monitores",
+      "menu-item#category-eletronicos-hds",
+      "menu-item#category-eletronicos-acessoriosPerif",
+      "menu-item#category-eletronicos-impressoras",
+      "menu-item#category-eletronicos-componentsPecas",
+      "menu-item#category-eletronicos-cartuchos",
+      "menu-item#category-eletronicos-equipRedeWireless",
+      "menu-item#category-eletronicos-noteAcessorios",
+      "menu-item#category-eletronicos-projetores",
+      "menu-item#category-eletronicos-teclado",
+      "menu-item#category-eletronicos-mouse",
+      "menu-item#category-eletronicos-usados"
+    ]
+  },
+  "menu-item#category-eletronicos-notebooks": {
+    "props": {
+      "id": "menu-item-category-eletronicos-notebooks",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Notebooks",
+        "text": "Notebooks"
+      }
+    }
+  },
+  "menu-item#category-eletronicos-notebooks2": {
+    "props": {
+      "id": "menu-item-category-eletronicos-notebooks2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/accessories/",
+        "noFollow": false,
+        "tagTitle": "Notebooks 2 em 1",
+        "text": "Notebooks 2 em 1"
+      }
+    }
+  },
+  "menu-item#category-eletronicos-noteGamer": {
+    "props": {
+      "id": "menu-item-category-eletronicos-noteGamer",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Notebooks Gamers",
+        "text": "Notebooks Gamers"
+      }
+    }
+  },
+  "menu-item#category-eletronicos-desk": {
+    "props": {
+      "id": "menu-item-category-eletronicos-desk",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Computadores (Desks)",
+        "text": "Computadores (Desks)"
+      }
+    }
+  },
+  "menu-item#category-eletronicos-deskGamer": {
+    "props": {
+      "id": "menu-item-category-eletronicos-deskGamer",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Desk Gamer",
+        "text": "Desk Gamer"
+      }
+    }
+  },
+  "menu-item#category-eletronicos-allInOne": {
+    "props": {
+      "id": "menu-item-category-eletronicos-allInOne",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "All in One",
+        "text": "All in One"
+      }
+    }
+  },
+  "menu-item#category-eletronicos-apple": {
+    "props": {
+      "id": "menu-item-category-eletronicos-apple",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Apple",
+        "text": "Apple"
+      }
+    }
+  },
+  "menu-item#category-eletronicos-smartHome": {
+    "props": {
+      "id": "menu-item-category-eletronicos-smartHome",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Smart Home",
+        "text": "Smart Home"
+      }
+    }
+  },
+  "menu-item#category-eletronicos-multifunc": {
+    "props": {
+      "id": "menu-item-category-eletronicos-multifunc",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Multifuncionais",
+        "text": "Multifuncionais"
+      }
+    }
+  },
+  "menu-item#category-eletronicos-monitores": {
+    "props": {
+      "id": "menu-item-category-eletronicos-monitores",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Monitores LED/LCD",
+        "text": "Monitores LED/LCD"
+      }
+    }
+  },
+  "menu-item#category-eletronicos-hds": {
+    "props": {
+      "id": "menu-item-category-eletronicos-hds",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "HDS",
+        "text": "HDS"
+      }
+    }
+  },
+  "menu-item#category-eletronicos-acessoriosPerif": {
+    "props": {
+      "id": "menu-item-category-eletronicos-acessoriosPerif",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Acessórios e Periféricos",
+        "text": "Acessórios e Periféricos"
+      }
+    }
+  },
+  "menu-item#category-eletronicos-impressoras": {
+    "props": {
+      "id": "menu-item-category-eletronicos-impressoras",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Impressoras",
+        "text": "Impressoras"
+      }
+    }
+  },
+  "menu-item#category-eletronicos-componentsPecas": {
+    "props": {
+      "id": "menu-item-category-eletronicos-componentsPecas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Componentes e Peças",
+        "text": "Componentes e Peças"
+      }
+    }
+  },
+  "menu-item#category-eletronicos-cartuchos": {
+    "props": {
+      "id": "menu-item-category-eletronicos-cartuchos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Cartuchos e Toners",
+        "text": "Cartuchos e Toners"
+      }
+    }
+  },
+  "menu-item#category-eletronicos-equipRedeWireless": {
+    "props": {
+      "id": "menu-item-category-eletronicos-equipRedeWireless",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Equipamentos de rede/wireless",
+        "text": "Equipamentos de rede/wireless"
+      }
+    }
+  },
+  "menu-item#category-eletronicos-noteAcessorios": {
+    "props": {
+      "id": "menu-item-category-eletronicos-noteAcessorios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Acessórios para Notebooks",
+        "text": "Acessórios para Notebooks"
+      }
+    }
+  },
+  "menu-item#category-eletronicos-projetores": {
+    "props": {
+      "id": "menu-item-category-eletronicos-projetores",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Projetores",
+        "text": "Projetores"
+      }
+    }
+  },
+  "menu-item#category-eletronicos-teclado": {
+    "props": {
+      "id": "menu-item-category-eletronicos-teclado",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Teclado",
+        "text": "Teclado"
+      }
+    }
+  },
+  "menu-item#category-eletronicos-mouse": {
+    "props": {
+      "id": "menu-item-category-eletronicos-mouse",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Mouse",
+        "text": "Mouse"
+      }
+    }
+  },
+  "menu-item#category-eletronicos-usados": {
+    "props": {
+      "id": "menu-item-category-eletronicos-usados",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Acessórios de Informática Usados",
+        "text": "Acessórios de Informática Usados"
+      }
+    }
+  },
+
+
+
+
+
   "menu-item#more": {
     "props": {
       "id": "menu-item-custom-sale",

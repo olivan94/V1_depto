@@ -96,6 +96,8 @@
       "width": "180"
     }
   },
+
+  
   "header-layout.mobile": {
     "children": ["sticky-layout#1-mobile"]
   },
@@ -122,14 +124,14 @@
 
   "menu#drawer": {
     "children": [
-      // "menu-item#category-eletronicos",
-      // "menu-item#category-celulares",
-      // "menu-item#category-informatica",
-      // "menu-item#category-casa",
-      // "menu-item#category-decor",
-      // "menu-item#category-beleza",
-      // "menu-item#category-midia",
-      // "menu-item#category-todos"
+      "menu-item#category-eletronicos",
+      "menu-item#category-celulares",
+      "menu-item#category-informatica",
+      "menu-item#category-casa",
+      "menu-item#category-decor",
+      "menu-item#category-beleza",
+      "menu-item#category-midia",
+      "menu-item#category-todos"
     ],
     "props": {
       "orientation": "vertical"
