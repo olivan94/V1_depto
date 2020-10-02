@@ -1,13 +1,14 @@
 {
   "store.home": {
     "blocks": [
-      "list-context.image-list#demo",
+      "list-context.image-list#home",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "__fold__.experimentalLazyAssets",
       "flex-layout.row#deals",
-      "rich-text#shelf-title",
-      "flex-layout.row#shelf",
+      "rich-text#slider-categories-title",
+      "list-context.image-list#home-categories",
+      "flex-layout.row#shelf-topSeller",
       "info-card#home",
       "rich-text#question",
       "rich-text#link",
@@ -19,23 +20,28 @@
     "blocks": ["product-summary.shelf"]
   },
 
-  "list-context.image-list#demo": {
-    "children": ["slider-layout#demo-images"],
+  "list-context.image-list#home": {
+    "children": ["slider-layout#home-images"],
     "props": {
       "height": 720,
       "images": [
         {
           "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+          "mobileImage": "assets/applewatch.png"
         },
         {
           "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+          "mobileImage": "assets/applewatch.png"
+        },
+        {
+          "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
+          "mobileImage": "assets/applewatch.png"
         }
       ]
     }
   },
-  "slider-layout#demo-images": {
+
+  "slider-layout#home-images": {
     "props": {
       "itemsPerPage": {
         "desktop": 1,
@@ -43,37 +49,97 @@
         "phone": 1
       },
       "infinite": true,
-      "showNavigationArrows": "desktopOnly",
+      "showNavigationArrows": "never",
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      },
       "blockClass": "carousel"
     }
   },
 
-  "rich-text#shelf-title": {
+  "rich-text#slider-categories-title": {
     "props": {
-      "text": "## Summer",
+      "text": "## Categorias em destaque",
       "blockClass": "shelfTitle"
     }
+  },  
+
+  "list-context.image-list#home-categories": {
+    "children": ["slider-layout#home-categories"],
+    "props": {
+      "height": 720,
+      "images": [
+        {
+          "image": "assets/note.png",
+          "mobileImage": "assets/note.png"
+        },
+        {
+          "image": "assets/tablet.png",
+          "mobileImage": "assets/tablet.png"
+        },
+        {
+          "image": "assets/celulares.png",
+          "mobileImage": "assets/celulares.png"
+        },
+        {
+          "image": "assets/tvs.png",
+          "mobileImage": "assets/tvs.png"
+        },
+        {
+          "image": "assets/eletros.png",
+          "mobileImage": "assets/eletros.png"
+        },
+        {
+          "image": "assets/beleza.png",
+          "mobileImage": "assets/beleza.png"
+        },
+        {
+          "image": "assets/decor.png",
+          "mobileImage": "assets/decor.png"
+        },
+        {
+          "image": "assets/audio.png",
+          "mobileImage": "assets/audio.png"
+        }
+      ]
+    }
   },
-  "flex-layout.row#shelf": {
-    "children": ["list-context.product-list#demo1"]
+
+  "slider-layout#home-categories": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 8,
+        "tablet": 4,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "blockClass": "carousel2"
+    }
   },
-  "list-context.product-list#demo1": {
+
+
+  "flex-layout.row#shelf-topSeller": {
+    "children": ["list-context.product-list#topSeller"]
+  },
+  "list-context.product-list#topSeller": {
     "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout#demo-products"],
+    "children": ["slider-layout#topSeller"],
     "props": {
       "orderBy": "OrderByTopSaleDESC"
     }
   },
-  "slider-layout#demo-products": {
+  "slider-layout#topSeller": {
     "props": {
       "itemsPerPage": {
-        "desktop": 5,
+        "desktop": 4,
         "tablet": 3,
-        "phone": 1
+        "phone": 2
       },
       "infinite": true,
       "fullWidth": false,
-      "blockClass": "shelf"
+      "blockClass": "shelf-topSeller"
     }
   },
 

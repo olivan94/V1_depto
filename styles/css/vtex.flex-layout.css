@@ -41,7 +41,7 @@
   font-size: 14px;
 }
 .flexRow--deals {
-  background-color: #a7afbd;
+  background-color: #4F32FE;
   padding: 14px 0px;
 }
 
@@ -51,6 +51,7 @@
 
 .flexRow--deals .flexCol {
   align-items: center;
+  display: contents;
 }
 
 .flexCol--filterCol {
