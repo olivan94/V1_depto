@@ -71,8 +71,269 @@
         "tagTitle": "Eletrodomésticos e Casa",
         "text": "Eletrodomésticos e Casa"
       }
+    },
+    "blocks":[
+      "vtex.menu@2.x:submenu#category-todos-eletroHome"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-todos-eletroHome": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#todos-eletroHome"
+    ]
+  },
+  "vtex.menu@2.x:menu#todos-eletroHome": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#todos-eletroHome-adega",
+      "menu-item#todos-eletroHome-cervejeira",
+      "menu-item#todos-eletroHome-cooktop",
+      "menu-item#todos-eletroHome-fogao",
+      "menu-item#todos-eletroHome-geladeira",
+      "menu-item#todos-eletroHome-lavaSeca",
+      "menu-item#todos-eletroHome-maquinaDeLavar",
+      "menu-item#todos-eletroHome-microondas",
+      "menu-item#todos-eletroHome-aspirador",
+      "menu-item#todos-eletroHome-batedeira",
+      "menu-item#todos-eletroHome-cafeteira",
+      "menu-item#todos-eletroHome-fritadeira",
+      "menu-item#todos-eletroHome-liquidificador",
+      "menu-item#todos-eletroHome-mixer",
+      "menu-item#todos-eletroHome-filtroAgua"
+    ]
+  },
+  "menu-item#todos-eletroHome-adega": {
+    "props": {
+      "id": "menu-item-todos-eletroHome-adega",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Adega Climatizada",
+        "text": "Adega Climatizada"
+      }
     }
   },
+
+  "menu-item#todos-eletroHome-cervejeira": {
+    "props": {
+      "id": "menu-item-todos-eletroHome-cervejeira",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Cervejeira",
+        "text": "Cervejeira"
+      }
+    }
+  },
+  "menu-item#todos-eletroHome-cooktop": {
+    "props": {
+      "id": "menu-item-todos-eletroHome-cooktop",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Cooktop",
+        "text": "Cooktop"
+      }
+    }
+  },
+  "menu-item#todos-eletroHome-fogao": {
+    "props": {
+      "id": "menu-item-todos-eletroHome-fogao",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Fogão",
+        "text": "Fogão"
+      }
+    }
+  },
+  "menu-item#todos-eletroHome-geladeira": {
+    "props": {
+      "id": "menu-item-todos-eletroHome-geladeira",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Geladeira",
+        "text": "Geladeira"
+      }
+    }
+  },
+
+  "menu-item#todos-eletroHome-lavaSeca": {
+    "props": {
+      "id": "menu-item-todos-eletroHome-lavaSeca",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Lava e Seca",
+        "text": "Lava e Seca"
+      }
+    }
+  },
+  "menu-item#todos-eletroHome-maquinaDeLavar": {
+    "props": {
+      "id": "menu-item-todos-eletroHome-maquinaDeLavar",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Máquina de Lavar",
+        "text": "Máquina de Lavar"
+      }
+    }
+  },
+  "menu-item#todos-eletroHome-microondas": {
+    "props": {
+      "id": "menu-item-todos-eletroHome-microondas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Micro-ondas",
+        "text": "Micro-ondas"
+      }
+    }
+  },
+  "menu-item#todos-eletroHome-aspirador": {
+    "props": {
+      "id": "menu-item-todos-eletroHome-aspirador",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Aspirador de Pó",
+        "text": "Aspirador de Pó"
+      }
+    }
+  },
+  "menu-item#todos-eletroHome-batedeira": {
+    "props": {
+      "id": "menu-item-todos-eletroHome-batedeira",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Batedeira",
+        "text": "Batedeira"
+      }
+    }
+  },
+  "menu-item#todos-eletroHome-cafeteira": {
+    "props": {
+      "id": "menu-item-todos-eletroHome-cafeteira",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Cafeteira Expressa",
+        "text": "Cafeteira Expressa"
+      }
+    }
+  },
+  "menu-item#todos-eletroHome-fritadeira": {
+    "props": {
+      "id": "menu-item-todos-eletroHome-fritadeira",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Fritadeira Elétrica",
+        "text": "Fritadeira Elétrica"
+      }
+    }
+  },
+  "menu-item#todos-eletroHome-liquidificador": {
+    "props": {
+      "id": "menu-item-todos-eletroHome-liquidificador",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Liquidificador",
+        "text": "Liquidificador"
+      }
+    }
+  },
+  "menu-item#todos-eletroHome-mixer": {
+    "props": {
+      "id": "menu-item-todos-eletroHome-mixer",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Mixer",
+        "text": "Mixer"
+      }
+    }
+  },
+  "menu-item#todos-eletroHome-filtroAgua": {
+    "props": {
+      "id": "menu-item-todos-eletroHome-filtroAgua",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Purificador de Água",
+        "text": "Purificador de Água"
+      }
+    }
+  },
+
   "menu-item#category-todos-gamesPcgamer": {
     "props": {
       "id": "menu-item-category-todos-gamesPcgamer",
@@ -564,7 +825,101 @@
     }
   },
 
+  "menu-item#category-celulares":{
+    "props": {
+      "id": "menu-item-category-celulares",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/home---decor/",
+        "noFollow": false,
+        "tagTitle": "Celulares",
+        "text": "Celulares"
+      }
+    }
+  },
 
+  "menu-item#category-informatica":{
+    "props": {
+      "id": "menu-item-category-informatica",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/home---decor/",
+        "noFollow": false,
+        "tagTitle": "Informática",
+        "text": "Informática"
+      }
+    }
+  },
+
+  "menu-item#category-casa":{
+    "props": {
+      "id": "menu-item-category-casa",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/home---decor/",
+        "noFollow": false,
+        "tagTitle": "Casa & banho",
+        "text": "Casa & banho"
+      }
+    }
+  },
+  
+  "menu-item#category-decor":{
+    "props": {
+      "id": "menu-item-category-decor",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/home---decor/",
+        "noFollow": false,
+        "tagTitle": "Decoração",
+        "text": "Decoração"
+      }
+    }
+  },
+
+  "menu-item#category-beleza":{
+    "props": {
+      "id": "menu-item-category-beleza",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/home---decor/",
+        "noFollow": false,
+        "tagTitle": "Beleza & perfumaria",
+        "text": "Beleza & perfumaria"
+      }
+    }
+  },
+
+  "menu-item#category-midia":{
+    "props": {
+      "id": "menu-item-category-midia",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/home---decor/",
+        "noFollow": false,
+        "tagTitle": "Tv & áudio",
+        "text": "Tv & áudio"
+      }
+    }
+  },
 
 
 
