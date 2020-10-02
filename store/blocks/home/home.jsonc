@@ -9,6 +9,7 @@
       "rich-text#slider-categories-title",
       "list-context.image-list#home-categories",
       "flex-layout.row#shelf-topSeller",
+      "flex-layout.row#cards",
       "info-card#home",
       "rich-text#question",
       "rich-text#link",
@@ -142,6 +143,71 @@
       "blockClass": "shelf-topSeller"
     }
   },
+
+  "flex-layout.row#cards": {
+    "children":[
+      "flex-layout.col#cards1",
+      "flex-layout.col#cards2",
+      "flex-layout.col#cards3"
+    ]
+  },
+  "flex-layout.col#cards1": {
+    "children": [
+      "image#card1",
+      "image#card2"
+    ]
+  },
+  "image#card1": {
+    "props": {
+      "src": "assets/miBand5.png",
+      "maxHeight": "24px"
+    }
+  },
+  "image#card2": {
+    "props": {
+      "src": "assets/pcGamer.png",
+      "maxHeight": "24px"
+    }
+  },
+
+  "flex-layout.col#cards2": {
+    "children": [
+      "image#card3",
+      "image#card4"
+    ]
+  },
+  "image#card3": {
+    "props": {
+      "src": "assets/pcGamer.png",
+      "maxHeight": "24px"
+    }
+  },
+  "image#card4": {
+    "props": {
+      "src": "assets/pcGamer.png",
+      "maxHeight": "24px"
+    }
+  },
+
+  "flex-layout.col#cards3": {
+    "children": [
+      "image#card5",
+      "image#card6"
+    ]
+  },
+  "image#card5": {
+    "props": {
+      "src": "assets/pcGamer.png",
+      "maxHeight": "24px"
+    }
+  },
+  "image#card6": {
+    "props": {
+      "src": "assets/pcGamer.png",
+      "maxHeight": "24px"
+    }
+  },
+
 
   "info-card#home": {
     "props": {
