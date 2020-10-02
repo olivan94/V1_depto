@@ -99,7 +99,10 @@
 
   
   "header-layout.mobile": {
-    "children": ["sticky-layout#1-mobile"]
+    "children": [
+      "sticky-layout#1-mobile",
+      "search-bar"
+    ]
   },
   "sticky-layout#1-mobile": {
     "children": ["flex-layout.row#1-mobile"]
@@ -119,6 +122,9 @@
     }
   },
   "drawer": {
+    "props":{
+      "maxWidth": 335
+    },
     "children": ["menu#drawer"]
   },
 
@@ -143,7 +149,15 @@
       "title": "Logo",
       "href": "/",
       "url": "assets/logo.png",
-      "width": "70"
+      "width": "90"
+    }
+  },
+
+  "search-bar":{
+    "props": {
+      "hasIconLeft": false,
+      "maxWidth": "100%",
+      "placeholder": "Buscar"
     }
   }
 }
