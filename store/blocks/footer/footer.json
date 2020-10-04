@@ -75,11 +75,78 @@
 
   "footer-layout.mobile": {
     "children": [
-      "flex-layout.row#1-footer-mobile",
-      "flex-layout.row#2-footer-mobile"
+      "flex-layout.row#footer-mobile-about",
+      "flex-layout.row#footer-mobile-atendimento",
+      "flex-layout.row#footer-mobile-ajuda",
+      "social-networks",
+      "flex-layout.row#mobile-payment"
     ]
   },
-  "flex-layout.row#2-footer-mobile": {
+
+  "flex-layout.row#footer-mobile-about": {
+    "children": [
+      "rich-text#footer-mobile-about-title",
+      "vtex.menu@2.x:menu#footer-about"
+    ]
+  },
+  "flex-layout.row#footer-mobile-atendimento": {
+    "children": [
+      "rich-text#footer-mobile-atendimento-title",
+      "vtex.menu@2.x:menu#footer-atendimento"
+    ]
+  },
+  "flex-layout.row#footer-mobile-ajuda": {
+    "children": [
+      "rich-text#footer-mobile-ajuda-title",
+      "vtex.menu@2.x:menu#footer-ajuda"
+    ]
+  },
+
+  "rich-text#footer-mobile-about-title":{
+    "props": {
+      "text": "**Sobre**",
+      "blockClass": "aboutTitle"
+    }
+  },
+  "rich-text#footer-mobile-atendimento-title":{
+    "props": {
+      "text": "**Atendimento**",
+      "blockClass": "atendimentoTitle"
+    }
+  },
+  "rich-text#footer-mobile-ajuda-title":{
+    "props": {
+      "text": "**Ajuda**",
+      "blockClass": "ajudaTitle"
+    }
+  },
+
+  "flex-layout.row#mobile-payment": {
+    "children": [
+      "accepted-payment-methods",
+      "image#encrypt",
+      "image#ebit",
+      "image#pci"
+    ]
+  },
+  "image#encrypt": {
+    "props": {
+      "src": "assets/letsencrypt.png"
+    }
+  },
+  "image#ebit": {
+    "props": {
+      "src": "assets/ebit.png"
+    }
+  },
+  "image#pci": {
+    "props": {
+      "src": "assets/pci.png"
+    }
+  },
+
+
+  "flex-layout.row#footer-social-payment": {
     "children": ["flex-layout.col#footer-1-mobile"],
     "props": {
       "blockClass": "payment-methods",

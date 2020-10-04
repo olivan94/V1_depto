@@ -8,12 +8,17 @@
       "flex-layout.row#deals",
       "rich-text#slider-categories-title",
       "list-context.image-list#home-categories",
+      "rich-text#slider-topSeller",
       "flex-layout.row#shelf-topSeller",
       "flex-layout.row#cards",
-      "info-card#home",
-      "rich-text#question",
-      "rich-text#link",
-      "newsletter"
+      "flex-layout.row#banners",
+      "rich-text#dummie",
+      "rich-text#slider-lastItems",
+      "flex-layout.row#lastItems",
+      "rich-text#slider-also",
+      "flex-layout.row#also",
+      
+      "flex-layout.row#newsletter"
     ]
   },
 
@@ -120,6 +125,13 @@
     }
   },
 
+  "rich-text#slider-topSeller": {
+    "props": {
+      "text": "Mais vendidos",
+      "blockClass": "shelfTitle"
+    }
+  },  
+
 
   "flex-layout.row#shelf-topSeller": {
     "children": ["list-context.product-list#topSeller"]
@@ -146,94 +158,151 @@
 
   "flex-layout.row#cards": {
     "children":[
-      "flex-layout.col#cards1",
-      "flex-layout.col#cards2",
-      "flex-layout.col#cards3"
-    ]
-  },
-  "flex-layout.col#cards1": {
-    "children": [
       "image#card1",
-      "image#card2"
+      "image#card2",
+      "image#card3",
+      "image#card4",
+      "image#card5",
+      "image#card6"
     ]
   },
   "image#card1": {
     "props": {
       "src": "assets/miBand5.png",
-      "maxHeight": "24px"
+      "maxWidth": "178px"
     }
   },
   "image#card2": {
     "props": {
       "src": "assets/pcGamer.png",
-      "maxHeight": "24px"
+      "maxWidth": "178px"
     }
-  },
-
-  "flex-layout.col#cards2": {
-    "children": [
-      "image#card3",
-      "image#card4"
-    ]
   },
   "image#card3": {
     "props": {
-      "src": "assets/pcGamer.png",
-      "maxHeight": "24px"
+      "src": "assets/eBooks.png",
+      "maxWidth": "178px"
     }
   },
   "image#card4": {
     "props": {
-      "src": "assets/pcGamer.png",
-      "maxHeight": "24px"
+      "src": "assets/produtosApple.png",
+      "maxWidth": "178px"
     }
-  },
-
-  "flex-layout.col#cards3": {
-    "children": [
-      "image#card5",
-      "image#card6"
-    ]
   },
   "image#card5": {
     "props": {
-      "src": "assets/pcGamer.png",
-      "maxHeight": "24px"
+      "src": "assets/tvLed.png",
+      "maxWidth": "178px"
     }
   },
   "image#card6": {
     "props": {
-      "src": "assets/pcGamer.png",
-      "maxHeight": "24px"
+      "src": "assets/decoracao.png",
+      "maxWidth": "178px"
+    }
+  },
+
+  "flex-layout.row#banners": {
+    "children":[
+      "image#banner1",
+      "image#banner2"
+    ]
+  },
+  "image#banner1": {
+    "props": {
+      "src": "assets/drones.png",
+      "maxWidth": "100%"
+    }
+  },
+  "image#banner2": {
+    "props": {
+      "src": "assets/100ReaisDesconto.png",
+      "maxWidth": "100%"
+    }
+  },
+
+  "rich-text#dummie": {
+    "props": {
+      "text": "# **Aqui você encontra o melhor de tudo.**\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five.",
+      "blockClass": "dummie"
+    }
+  },
+
+  "rich-text#slider-lastItems": {
+    "props": {
+      "text": "Última oportunidade",
+      "blockClass": "shelfTitle"
+    }
+  },  
+
+  "flex-layout.row#lastItems": {
+    "children": ["list-context.product-list#lastItems"]
+  },
+  "list-context.product-list#lastItems": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#lastItems"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#lastItems": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf-lastItems"
+    }
+  },
+
+  "rich-text#slider-also": {
+    "props": {
+      "text": "Você também vai gostar",
+      "blockClass": "shelfTitle"
+    }
+  },  
+
+  "flex-layout.row#also": {
+    "children": ["list-context.product-list#also"]
+  },
+  "list-context.product-list#also": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#also"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#also": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf-also"
     }
   },
 
 
-  "info-card#home": {
-    "props": {
-      "id": "info-card-home",
-      "isFullModeStyle": false,
-      "textPosition": "left",
-      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-      "headline": "Clearance Sale",
-      "callToActionText": "DISCOVER",
-      "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-home",
-      "textAlignment": "center"
-    }
+
+
+  "flex-layout.row#newsletter":{
+    "children":[
+      "rich-text#newsletter-title",
+      "newsletter"
+    ]
   },
 
-  "rich-text#question": {
-    "props": {
-      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
-      "blockClass": "question"
-    }
-  },
-
-  "rich-text#link": {
-    "props": {
-      "text": "\n**Reach us at**\nwww.vtex.com.br",
-      "blockClass": "link"
+  "rich-text#newsletter-title":{
+    "props":{
+      "text": "**Quer ficar por dentro de tudo?**",
+      "blockClass": "newsTitle"
     }
   }
 }

@@ -1,4 +1,157 @@
 {
+  "vtex.menu@2.x:menu#footer-about": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#marca",
+      "menu-item#fale",
+      "menu-item#loja"
+    ]
+  },
+  "menu-item#marca": {
+    "props": {
+      "id": "menu-item-marca",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "A marca",
+        "text": "A marca"
+      }
+    }
+  },
+  "menu-item#fale": {
+    "props": {
+      "id": "menu-item-fale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Fale conosco",
+        "text": "Fale conosco"
+      }
+    }
+  },
+  "menu-item#loja": {
+    "props": {
+      "id": "menu-item-loja",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Loja física",
+        "text": "Loja física"
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#footer-atendimento": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#conta",
+      "menu-item#pedidos"
+    ]
+  },
+  "menu-item#conta": {
+    "props": {
+      "id": "menu-item-conta",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Minha conta",
+        "text": "Minha conta"
+      }
+    }
+  },
+  "menu-item#pedidos": {
+    "props": {
+      "id": "menu-item-pedidos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Meus pedidos",
+        "text": "Meus pedidos"
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#footer-ajuda": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#pagamento",
+      "menu-item#privacidade",
+      "menu-item#trocas"
+    ]
+  },
+  "menu-item#pagamento": {
+    "props": {
+      "id": "menu-item-pagamento",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Pagamento",
+        "text": "Pagamento"
+      }
+    }
+  },
+  "menu-item#privacidade": {
+    "props": {
+      "id": "menu-item-privacidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Política de privacidade",
+        "text": "Política de privacidade"
+      }
+    }
+  },
+  "menu-item#trocas": {
+    "props": {
+      "id": "menu-item-trocas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Política de trocas",
+        "text": "Política de trocas"
+      }
+    }
+  },
+
+
+
+
   "vtex.menu@2.x:menu#Products": {
     "props": {
       "orientation": "vertical"
@@ -221,7 +374,7 @@
       "iconId": null,
       "highlight": false,
       "itemProps": {
-        "type": "internal",
+        "type": "external",
         "href": "/clothing/d",
         "noFollow": true,
         "tagTitle": "Clothing",
@@ -302,7 +455,7 @@
       "iconId": null,
       "highlight": false,
       "itemProps": {
-        "type": "internal",
+        "type": "external",
         "href": "/clothing/d",
         "noFollow": true,
         "tagTitle": "Clothing",
@@ -318,7 +471,7 @@
       "iconId": null,
       "highlight": false,
       "itemProps": {
-        "type": "internal",
+        "type": "external",
         "href": "/clothing/shorts",
         "noFollow": false,
         "tagTitle": "Shorts",
@@ -334,7 +487,7 @@
       "iconId": null,
       "highlight": false,
       "itemProps": {
-        "type": "internal",
+        "type": "external",
         "href": "/clothing/tank-tops",
         "noFollow": false,
         "tagTitle": "Tank tops",
@@ -350,7 +503,7 @@
       "iconId": null,
       "highlight": false,
       "itemProps": {
-        "type": "internal",
+        "type": "external",
         "href": "/clothing/shirts",
         "noFollow": false,
         "tagTitle": "Shirts",
@@ -366,7 +519,7 @@
       "iconId": null,
       "highlight": false,
       "itemProps": {
-        "type": "internal",
+        "type": "external",
         "href": "/clothing/sweatshirt",
         "noFollow": false,
         "tagTitle": "Sweatshirt",
@@ -382,7 +535,7 @@
       "iconId": null,
       "highlight": false,
       "itemProps": {
-        "type": "internal",
+        "type": "external",
         "href": "/clothing/cropped",
         "noFollow": false,
         "tagTitle": "Cropped",

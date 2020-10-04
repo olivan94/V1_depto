@@ -98,5 +98,14 @@
     "children": [
       "flex-layout.row#faq"
     ]
+  },
+
+  "newsletter":{
+    "props": {
+      "label": "Acompanhe nossas novidades. Cadastre-se em nossa newsletter.",
+      "placeholder": "Digite seu e-mail",
+      "submit": "CADASTRAR"
+    }
+      
   }
 }
