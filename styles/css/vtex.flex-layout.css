@@ -22,14 +22,18 @@
 }
 
 .flexRowContent--main-header {
-  background-color: #f0f0f0;
+  background-color: #ffffff;
 }
 
 .flexRowContent--main-header-mobile {
+  max-height: 55px;
+
   align-items: center;
-  padding: 0.625rem 0.5rem;
-  background-color: #f0f0f0;
+  padding-left: 28px;
+  background-color: #ffffff;
 }
+
+
 
 .flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
   color: #ffffff;
@@ -49,9 +53,10 @@
   align-items: center;
 }
 
-.flexRow--deals .flexCol {
+.flexRowContent--deals {
+  display: flex;
+  justify-content: center;
   align-items: center;
-  display: contents;
 }
 
 .flexCol--filterCol {
@@ -97,3 +102,10 @@
 .flexRow--addToCartRow {
   padding-bottom: 1rem;
 }
+
+
+
+/* .flexRow--main-header-mobile {
+  max-height: 55px;
+
+} */

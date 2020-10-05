@@ -157,6 +157,7 @@
     "props": {
       "hasIconLeft": false,
       "maxWidth": "100%",
+      "displayMode":"search-button",
       "placeholder": "Buscar"
     }
   }

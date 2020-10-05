@@ -6,9 +6,56 @@
   text-decoration: underline;
 }
 
-.searchBarContainer :global(.vtex-styleguide-9-x-input) {
-  max-width: 208px;
+/* --------------------------------------------------------- */
+
+
+.searchBarContainer {
+  padding: 0;
 }
+
+.searchBarContainer :global(.vtex-input-prefix__group) {
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  background-color:  #4F32FE;
+}
+
+.searchBarContainer :global(.vtex-styleguide-9-x-input) {
+  background-color: transparent;
+  padding-left: 28px;
+}
+
+.searchBarContainer ::placeholder {
+  color: #ffffff;
+  font-family: 'Nunito Sans';
+  font-weight: 700;
+  letter-spacing: 0;
+  vertical-align: middle;
+  opacity: 1;
+}
+
+.searchBarContainer :global(.vtex-input__suffix){
+  background-color: transparent;
+}
+
+.imageElement--imageDeals {
+  /* padding-right: 7.5px; */
+}
+
+.searchBarIcon {
+  color: white;
+}
+
+.logoImage {
+  /* height: 33px; */
+  padding-top: 15px;
+}
+
+
+
+
+
+/* --------------------------------------------------------- */
 
 .infoCardContainer--info-card-home {
   max-width: 1520px;

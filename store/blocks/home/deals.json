@@ -1,23 +1,20 @@
 {
   "flex-layout.row#deals": {
     "children": [
-      "flex-layout.col#deals1"
+      "image#deal1",
+      "rich-text#deal1"
     ],
     "props": {
       "blockClass": "deals"
     }
   },
 
-  "flex-layout.col#deals1": {
-    "children": [
-      "image#deal1",
-      "rich-text#deal1"
-    ]
-  },
+
   "image#deal1": {
     "props": {
       "src": "assets/paper-plane.svg",
-      "maxHeight": "24px"
+      "maxHeight": "24px",
+      "blockClass": "imageDeals"
     }
   },
   "rich-text#deal1": {
