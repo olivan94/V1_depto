@@ -71,7 +71,7 @@
   "list-context.image-list#home-categories": {
     "children": ["slider-layout#home-categories"],
     "props": {
-      "height": 720,
+      "height": 171,
       "images": [
         {
           "image": "assets/note.png",
@@ -124,7 +124,7 @@
 
   "rich-text#slider-topSeller": {
     "props": {
-      "text": "Mais vendidos",
+      "text": "**Mais vendidos**",
       "blockClass": "shelfTitle"
     }
   },  
@@ -228,7 +228,7 @@
 
   "rich-text#slider-lastItems": {
     "props": {
-      "text": "Última oportunidade",
+      "text": "**Última oportunidade**",
       "blockClass": "shelfTitle"
     }
   },  
@@ -258,7 +258,7 @@
 
   "rich-text#slider-also": {
     "props": {
-      "text": "Você também vai gostar",
+      "text": "**Você também vai gostar**",
       "blockClass": "shelfTitle"
     }
   },  

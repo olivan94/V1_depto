@@ -21,8 +21,8 @@
   margin: 0 15px;
 }
 
-.paginationDot--carousel--isActive{
-  background-color: #2CFFF5;
+.paginationDot--carousel--isActive {
+  background-color: #2CFFF5 !important;
 }
 
 .layoutContainer--shelf {
@@ -35,4 +35,19 @@
   margin-bottom: 25px;
   padding-left: .5rem;
   padding-right: .5rem;
+}
+
+/* --------------------------------------------------- */
+
+.imageElement--carousel2 {
+  width: 67% !important;
+}
+
+.sliderTrack--carousel2 {
+  height: 200px;
+  align-items: flex-start;
+}
+
+.paginationDot--isActive {
+  background-color: #4F32FE;
 }

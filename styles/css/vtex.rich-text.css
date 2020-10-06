@@ -17,6 +17,10 @@
   font-weight: 700;
 }
 
+.paragraph--shelfTitle {
+  margin-bottom: 10px;
+}
+
 .container--deals .paragraph {
   margin: 0;
 }
