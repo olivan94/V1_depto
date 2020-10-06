@@ -46,7 +46,7 @@
 }
 .flexRow--deals {
   background-color: #4F32FE;
-  padding: 14px 0px;
+  max-height: 77px;
 }
 
 .flexRow--deals .stretchChildrenWidth {
@@ -103,9 +103,11 @@
   padding-bottom: 1rem;
 }
 
+.flexCol--deal1 {
+  display: contents;
+}
 
-
-/* .flexRow--main-header-mobile {
+.flexRow--main-header-mobile {
   max-height: 55px;
 
-} */
+}

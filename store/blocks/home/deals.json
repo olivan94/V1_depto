@@ -1,26 +1,34 @@
 {
   "flex-layout.row#deals": {
     "children": [
-      "image#deal1",
-      "rich-text#deal1"
+      "flex-layout.col#deal1"
     ],
     "props": {
       "blockClass": "deals"
     }
   },
 
+  "flex-layout.col#deal1": {
+    "children": [
+      "image#deal1",
+      "rich-text#deal1"
+    ],
+    "props": {
+      "blockClass": "deal1"
+    }
+  },
 
   "image#deal1": {
     "props": {
       "src": "assets/paper-plane.svg",
       "maxHeight": "24px",
-      "blockClass": "imageDeals"
+      "blockClass": "imageDeal1"
     }
   },
   "rich-text#deal1": {
     "props": {
       "text": " **Frete grátis** \n Acima de R$ 199",
-      "blockClass": "deals"
+      "blockClass": "textDeal1"
     }
   }
 }

@@ -1,7 +1,8 @@
-.container--deals {
+.container--textDeal1 {
   color: #ffffff;
   justify-content: center;
-  /* padding-left: 7.5px; */
+  padding-left: 15px;
+  font-family: 'Nunito Sans';
 }
 
 .container--shelfTitle {
