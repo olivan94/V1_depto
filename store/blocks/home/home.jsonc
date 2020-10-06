@@ -63,7 +63,7 @@
 
   "rich-text#slider-categories-title": {
     "props": {
-      "text": "## Categorias em destaque",
+      "text": "**Categorias em destaque**",
       "blockClass": "shelfTitle"
     }
   },  

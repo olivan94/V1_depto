@@ -2,17 +2,19 @@
   color: #ffffff;
   justify-content: center;
   padding-left: 15px;
-  font-family: 'Nunito Sans';
+  font: 13px/12px 'Nunito Sans';
 }
 
 .container--shelfTitle {
-  color: #727273;
+  color: #000000;
   justify-content: center;
   text-align: center;
+  font: 20px/12px 'Nunito Sans';
 }
 
-.headingLevel2--shelfTitle {
-  font-weight: 200;
+.strong--textDeal1 {
+  font: 16px/12px 'Nunito Sans';
+  font-weight: 700;
 }
 
 .container--deals .paragraph {
