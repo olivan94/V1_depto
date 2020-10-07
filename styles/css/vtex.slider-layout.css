@@ -40,7 +40,7 @@
 /* --------------------------------------------------- */
 
 .imageElement--carousel2 {
-  width: 67% !important;
+  /* width: 67% !important; */
 }
 
 .sliderTrack--carousel2 {
@@ -50,4 +50,18 @@
 
 .paginationDot--isActive {
   background-color: #4F32FE;
+}
+
+.sliderLayoutContainer--carousel2 {
+  padding: 0 57px;
+  overflow: hidden;
+}
+
+.paginationDotsContainer--carousel2 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.sliderLayoutContainer--shelf-topSeller {
+  padding: 0 18px !important;
 }

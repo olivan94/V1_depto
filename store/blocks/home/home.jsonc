@@ -147,6 +147,7 @@
         "tablet": 3,
         "phone": 2
       },
+      "showNavigationArrows": false,
       "infinite": true,
       "fullWidth": false,
       "blockClass": "shelf-topSeller"
@@ -161,7 +162,10 @@
       "image#card4",
       "image#card5",
       "image#card6"
-    ]
+    ],
+    "props": {
+      "blockClass": "cards"
+    }
   },
   "image#card1": {
     "props": {

@@ -1,3 +1,14 @@
+.flexRowContent--cards {
+  display: grid;
+  grid-template-columns: 188px 188px;
+  grid-template-rows: auto;
+  grid-template-areas: "card1 card2" "card3 card4" "card5 card6";
+  justify-content: center;
+  column-gap: 10px;
+  row-gap: 20px;
+}
+
+
 .flexRowContent--menu-link,
 .flexRowContent--main-header {
   padding: 0 0.5rem;
