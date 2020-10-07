@@ -8,6 +8,9 @@
   row-gap: 20px;
 }
 
+.flexRowContent--banners {
+  margin: 50px 0;
+}
 
 .flexRowContent--menu-link,
 .flexRowContent--main-header {

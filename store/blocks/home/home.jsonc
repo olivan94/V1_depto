@@ -208,24 +208,29 @@
     "children":[
       "image#banner1",
       "image#banner2"
-    ]
+    ],
+    "props": {
+      "blockClass": "banners"
+    }
   },
   "image#banner1": {
     "props": {
       "src": "assets/drones.png",
-      "maxWidth": "100%"
+      "maxWidth": "100%",
+      "blockClass": "drone"
     }
   },
   "image#banner2": {
     "props": {
       "src": "assets/100ReaisDesconto.png",
-      "maxWidth": "100%"
+      "maxWidth": "100%",
+      "blockClass": "cafe"
     }
   },
 
   "rich-text#dummie": {
     "props": {
-      "text": "# **Aqui você encontra o melhor de tudo.**\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five.",
+      "text": "**Aqui você encontra o melhor de tudo.**\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five.",
       "blockClass": "dummie"
     }
   },
