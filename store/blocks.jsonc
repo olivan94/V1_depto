@@ -102,10 +102,10 @@
 
   "newsletter":{
     "props": {
-      "label": "Acompanhe nossas novidades. Cadastre-se em nossa newsletter.",
+      "label": "Quer ficar por dentro de tudo?",
       "placeholder": "Digite seu e-mail",
-      "submit": "CADASTRAR"
+      "submit": "CADASTRAR",
+      "blockClass": "newsletter"
     }
-      
   }
 }

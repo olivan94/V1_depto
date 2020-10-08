@@ -17,8 +17,7 @@
       "flex-layout.row#lastItems",
       "rich-text#slider-also",
       "flex-layout.row#also",
-      
-      "flex-layout.row#newsletter"
+      "newsletter"
     ]
   },
 
@@ -230,8 +229,10 @@
 
   "rich-text#dummie": {
     "props": {
-      "text": "**Aqui você encontra o melhor de tudo.**\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five.",
-      "blockClass": "dummie"
+      "text": "**Aqui você encontra o melhor de tudo.**\n\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five.",
+      "blockClass": "dummie",
+      "textAlignment":"CENTER",
+      "textPosition": "CENTER"
     }
   },
 
@@ -259,9 +260,10 @@
         "tablet": 3,
         "phone": 2
       },
+      "showNavigationArrows": false,
       "infinite": true,
       "fullWidth": false,
-      "blockClass": "shelf-lastItems"
+      "blockClass": "shelf-topSeller"
     }
   },
 
@@ -289,26 +291,10 @@
         "tablet": 3,
         "phone": 2
       },
+      "showNavigationArrows": false,
       "infinite": true,
       "fullWidth": false,
-      "blockClass": "shelf-also"
-    }
-  },
-
-
-
-
-  "flex-layout.row#newsletter":{
-    "children":[
-      "rich-text#newsletter-title",
-      "newsletter"
-    ]
-  },
-
-  "rich-text#newsletter-title":{
-    "props":{
-      "text": "**Quer ficar por dentro de tudo?**",
-      "blockClass": "newsTitle"
+      "blockClass": "shelf-topSeller"
     }
   }
 }

@@ -79,7 +79,9 @@
       "flex-layout.row#footer-mobile-atendimento",
       "flex-layout.row#footer-mobile-ajuda",
       "social-networks",
-      "flex-layout.row#mobile-payment"
+      "flex-layout.row#mobile-payment",
+      "flex-layout.row#mobile-certificates",
+      "flex-layout.row#footer-osCara"
     ]
   },
 
@@ -87,48 +89,66 @@
     "children": [
       "rich-text#footer-mobile-about-title",
       "vtex.menu@2.x:menu#footer-about"
-    ]
+    ],
+    "props": {
+      "blockClass": "footer-menu-rows"
+    }
   },
   "flex-layout.row#footer-mobile-atendimento": {
     "children": [
       "rich-text#footer-mobile-atendimento-title",
       "vtex.menu@2.x:menu#footer-atendimento"
-    ]
+    ],
+    "props": {
+      "blockClass": "footer-menu-rows"
+    }
   },
   "flex-layout.row#footer-mobile-ajuda": {
     "children": [
       "rich-text#footer-mobile-ajuda-title",
       "vtex.menu@2.x:menu#footer-ajuda"
-    ]
+    ],
+    "props": {
+      "blockClass": "footer-menu-rows"
+    }
   },
 
   "rich-text#footer-mobile-about-title":{
     "props": {
       "text": "**Sobre**",
-      "blockClass": "aboutTitle"
+      "blockClass": "footerMenuTitle"
     }
   },
   "rich-text#footer-mobile-atendimento-title":{
     "props": {
       "text": "**Atendimento**",
-      "blockClass": "atendimentoTitle"
+      "blockClass": "footerMenuTitle"
     }
   },
   "rich-text#footer-mobile-ajuda-title":{
     "props": {
       "text": "**Ajuda**",
-      "blockClass": "ajudaTitle"
+      "blockClass": "footerMenuTitle"
     }
   },
 
   "flex-layout.row#mobile-payment": {
     "children": [
-      "accepted-payment-methods",
+      "accepted-payment-methods"
+    ]
+  },
+
+  "flex-layout.row#mobile-certificates": {
+    "children": [
       "image#encrypt",
       "image#ebit",
       "image#pci"
-    ]
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true
+    }
   },
+
   "image#encrypt": {
     "props": {
       "src": "assets/letsencrypt.png"
@@ -145,6 +165,27 @@
     }
   },
 
+  "flex-layout.row#footer-osCara": {
+    "children": [
+      "image#avanti",
+      "image#vtexio"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true
+    }
+  },
+
+  "image#avanti": {
+    "props": {
+      "src": "assets/avanti1.png"
+    }
+  },
+
+  "image#vtexio": {
+    "props": {
+      "src": "assets/vtex.png"
+    }
+  },
 
   "flex-layout.row#footer-social-payment": {
     "children": ["flex-layout.col#footer-1-mobile"],

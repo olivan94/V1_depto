@@ -25,6 +25,38 @@
   margin: 0;
 }
 
+.wrapper--dummie {
+  color: #000000;
+  font: 14px/25px 'Nunito Sans';
+  margin: 0 20px;
+}
+
+.paragraph--dummie {
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.paragraph--dummie:first-child {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.paragraph--footerMenuTitle {
+  font-family: 'nunito sans';
+  font-weight: 700;
+  font-size: 16px;
+  padding-left: 28px;
+  color: #000;
+}
+
+.container--footerMenuTitle {
+  background-color: #f6f5f8;
+  max-height: 51px;
+  align-items: center;
+}
+
+/* ----------------------pra cima eu fiz --------------------------- */
+
 .container--link {
   justify-content: center;
 }

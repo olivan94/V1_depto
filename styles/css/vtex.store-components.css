@@ -6,7 +6,7 @@
   text-decoration: underline;
 }
 
-/* --------------------------------------------------------- */
+/* --------------------------baixo------------------------------- */
 
 
 .searchBarContainer {
@@ -56,11 +56,89 @@
   margin: 0px;
 }
 
+.newsletter {
+  background-color: #4F32FE;
+  max-width: 371px;
+  max-height: 271px;
+  margin: 0 auto;
+}
+
+.container--newsletter {
+  padding: 0 !important;
+}
+
+.form--newsletter {
+  max-width: 328px;
+  padding: 40px 0;
+}
+
+.label--newsletter {
+  font: 20px/12px Nunito Sans;
+  font-weight: 700;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.label--newsletter::after {
+  content: "\a Acompanhe nossas novidades. Cadastre-se em nossa newsletter. \a";
+  white-space: pre-wrap;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0 58px;
+  line-height: 20px;
+}
+
+.inputGroup--newsletter {
+  display: flex;
+  color: #fff;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 0px;
+}
+
+.inputGroup--newsletter :global(.vtex-input-prefix__group) {
+  border: none;
+  border-radius: 28px;
+  height: 57px;
+}
+
+.inputGroup :global(.vtex-styleguide-9-x-hideDecorators) {
+  background-color: rgba(0,0,0,0.15);
+  border: none;
+  padding: 22px 30px;
+  color: #fff;
+}
+
+.inputGroup :global(.vtex-styleguide-9-x-hideDecorators)::placeholder {
+  color: #ffffff;
+  font-family: 'Nunito Sans';
+  font-size: 14px;
+  line-height: 12px;
+  font-weight: 300;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+
+.buttonContainer {
+  padding-top: 0px;
+}
+
+.inputGroup :global(.vtex-button) {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  font-family: 'Nunito Sans';
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 30px;
+  margin-top: 3px;
+}
 
 
 
-
-/* --------------------------------------------------------- */
+/* ---------------------------cima------------------------------ */
 
 .infoCardContainer--info-card-home {
   max-width: 1520px;
@@ -69,7 +147,7 @@
   padding: 0px;
 }
 
-.newsletter {
+/* .newsletter {
   background-color: #03054e;
   max-width: 1528px;
   margin: 0 auto;
@@ -77,40 +155,28 @@
 
 .newsletter .container {
   padding: 60px 10px;
-}
-
+} */
+/* 
 .label {
   color: #fff;
   font-size: 26px;
-}
+} */
 
-.inputGroup {
+/* .inputGroup {
   padding-bottom: 4px;
   display: flex;
   color: #fff;
-}
+} */
 
-.inputGroup :global(.vtex-styleguide-9-x-hideDecorators) {
-  background-color: transparent;
-  color: #fff;
-  border: none;
-}
 
-.inputGroup :global(.vtex-styleguide-9-x-hideDecorators)::placeholder {
+
+/* .inputGroup :global(.vtex-styleguide-9-x-hideDecorators)::placeholder {
   color: #fff;
   font-size: 16px;
-}
+} */
 
-.inputGroup :global(.vtex-button) {
-  background-color: transparent;
-  color: #fff;
-  border: none;
-  margin-right: -24px;
-}
 
-.buttonContainer {
-  padding-top: 0px;
-}
+
 
 .imageElement--storePrint {
   max-height: 300px;
