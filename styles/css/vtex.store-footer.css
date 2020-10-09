@@ -11,3 +11,18 @@
 }
 /* --------------------------baixo----------------------------- */
 
+.footerLayout {
+  margin-top: 20px;
+}
+
+.socialNetworksContainer {
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  background-color: #f6f5f8;
+  border-bottom: 1px solid #E4DDEE;
+}
+
+.socialNetworkImage {
+  max-height: 23px;
+}

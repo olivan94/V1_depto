@@ -1,7 +1,8 @@
 {
   "vtex.menu@2.x:menu#footer-about": {
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass": "menuFooter"
     },
     "children": [
       "menu-item#marca",
@@ -15,6 +16,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "blockClass": "menuItemFooter",
       "itemProps": {
         "type": "internal",
         "href": "#",
@@ -30,6 +32,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "blockClass": "menuItemFooter",
       "itemProps": {
         "type": "internal",
         "href": "#",
@@ -45,6 +48,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "blockClass": "menuItemFooter",
       "itemProps": {
         "type": "internal",
         "href": "#",
@@ -56,7 +60,8 @@
   },
   "vtex.menu@2.x:menu#footer-atendimento": {
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass": "menuFooter"
     },
     "children": [
       "menu-item#conta",
@@ -69,6 +74,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "blockClass": "menuItemFooter",
       "itemProps": {
         "type": "internal",
         "href": "#",
@@ -84,6 +90,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "blockClass": "menuItemFooter",
       "itemProps": {
         "type": "internal",
         "href": "#",
@@ -95,7 +102,8 @@
   },
   "vtex.menu@2.x:menu#footer-ajuda": {
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass": "menuFooter"
     },
     "children": [
       "menu-item#pagamento",
@@ -109,6 +117,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "blockClass": "menuItemFooter",
       "itemProps": {
         "type": "internal",
         "href": "#",
@@ -124,6 +133,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "blockClass": "menuItemFooter",
       "itemProps": {
         "type": "internal",
         "href": "#",
@@ -139,6 +149,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "blockClass": "menuItemFooter",
       "itemProps": {
         "type": "internal",
         "href": "#",
@@ -149,7 +160,13 @@
     }
   },
 
+  
 
+
+
+
+
+  
 
 
   "vtex.menu@2.x:menu#Products": {

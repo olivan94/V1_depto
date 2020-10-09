@@ -136,6 +136,17 @@
   margin-top: 3px;
 }
 
+.imageElement--mobilePayment {
+  max-height: 35px;
+}
+
+.imageElement--mobileCertificates {
+  max-height: 45px;
+}
+
+.imageElement--mobileOsCara {
+  max-height: 40px;
+}
 
 
 /* ---------------------------cima------------------------------ */

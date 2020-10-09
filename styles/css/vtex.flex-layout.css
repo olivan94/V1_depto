@@ -48,6 +48,8 @@
 }
 
 
+/* ---------------tudo misturado----------------- */
+
 
 .flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
   color: #ffffff;
@@ -117,11 +119,46 @@
   padding-bottom: 1rem;
 }
 
+/* --------------------------baixo---------------------------------- */
+
 .flexCol--deal1 {
   display: contents;
 }
 
 .flexRow--main-header-mobile {
   max-height: 55px;
+}
 
+.flexRowContent--mobilePayment {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 70px;
+  padding: 0 49px;
+  padding-bottom: 5px;
+  background-color: #f6f5f8;
+
+}
+
+.flexRowContent--mobileCertificates {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 80px;
+  padding: 0 51px;
+  padding-top: 5px;
+  background-color: #f6f5f8;
+  border-bottom: 1px solid #E4DDEE;
+}
+
+.flexRowContent--mobileOsCara {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 25px 100px;
+  background-color: #f6f5f8;
+}
+
+.flexRowContent--mobileOsCara .stretchChildrenWidth:first-child {
+  border-right: 1px solid #E4DDEE;
 }

@@ -1,0 +1,13 @@
+.styledLinkContainer--menuItemFooter {
+    padding-left: 50px;
+    margin: 0px;
+    border-bottom: 1px solid #f6f5f8;
+}
+
+.styledLinkContent--menuItemFooter {
+    font-family: 'Nunito Sans';
+    font-size: 14px;
+    font-weight: 400;
+    color: #847B91;
+    line-height: 50px;
+}

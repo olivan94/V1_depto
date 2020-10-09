@@ -134,8 +134,58 @@
 
   "flex-layout.row#mobile-payment": {
     "children": [
-      "accepted-payment-methods"
-    ]
+      "image#visa",
+      "image#master",
+      "image#diners",
+      "image#amex",
+      "image#elo",
+      "image#boleto"
+    ],
+    "props": {
+      "blockClass": "mobilePayment"
+    }
+  },
+
+  "image#visa": {
+    "props": {
+      "src": "assets/visa.png",
+      "blockClass": "mobilePayment"
+    }
+  },
+
+  "image#master": {
+    "props": {
+      "src": "assets/master.png",
+      "blockClass": "mobilePayment"
+    }
+  },
+
+  "image#diners": {
+    "props": {
+      "src": "assets/diners.png",
+      "blockClass": "mobilePayment"
+    }
+  },
+
+  "image#amex": {
+    "props": {
+      "src": "assets/amex.png",
+      "blockClass": "mobilePayment"
+    }
+  },
+
+  "image#elo": {
+    "props": {
+      "src": "assets/elo.png",
+      "blockClass": "mobilePayment"
+    }
+  },
+
+  "image#boleto": {
+    "props": {
+      "src": "assets/boleto.png",
+      "blockClass": "mobilePayment"
+    }
   },
 
   "flex-layout.row#mobile-certificates": {
@@ -145,23 +195,27 @@
       "image#pci"
     ],
     "props": {
-      "preserveLayoutOnMobile": true
+      "preserveLayoutOnMobile": true,
+      "blockClass": "mobileCertificates"
     }
   },
 
   "image#encrypt": {
     "props": {
-      "src": "assets/letsencrypt.png"
+      "src": "assets/letsencrypt.png",
+      "blockClass": "mobileCertificates"
     }
   },
   "image#ebit": {
     "props": {
-      "src": "assets/ebit.png"
+      "src": "assets/ebit.png",
+      "blockClass": "mobileCertificates"
     }
   },
   "image#pci": {
     "props": {
-      "src": "assets/pci.png"
+      "src": "assets/pci.png",
+      "blockClass": "mobileCertificates"
     }
   },
 
@@ -171,19 +225,24 @@
       "image#vtexio"
     ],
     "props": {
-      "preserveLayoutOnMobile": true
+      "preserveLayoutOnMobile": true,
+      "blockClass": "mobileOsCara"
     }
   },
 
   "image#avanti": {
     "props": {
-      "src": "assets/avanti1.png"
+      "src": "assets/avanti1.png",
+      "link": "https://penseavanti.com.br/",
+      "blockClass": "mobileOsCara"
     }
   },
 
   "image#vtexio": {
     "props": {
-      "src": "assets/vtex.png"
+      "src": "assets/vtex.png",
+      "link": "https://vtex.io/",
+      "blockClass": "mobileOsCara"
     }
   },
 
