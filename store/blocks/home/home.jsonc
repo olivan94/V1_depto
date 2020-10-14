@@ -1,10 +1,19 @@
 {
   "store.home": {
     "blocks": [
-      "list-context.image-list#home",
+      "responsive-layout.desktop",
+      "responsive-layout.tablet",
+      "responsive-layout.mobile",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
+      "__fold__.experimentalLazyAssets"
+    ]
+  },
+
+  "responsive-layout.mobile": {
+    "children": [
       "__fold__.experimentalLazyAssets",
+      "list-context.image-list#home",
       "flex-layout.row#deals",
       "rich-text#slider-categories-title",
       "list-context.image-list#home-categories",

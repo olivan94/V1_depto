@@ -22,16 +22,39 @@
   },
 
   "flex-layout.row#2-desktop": {
-    "children": ["notification.bar#home"],
+    "children": [
+      "notification.bar#home"
+    ],
     "props": {
       "fullWidth": "true"
     }
   },
   "notification.bar#home": {
     "props": {
-      "content": "SELECTED ITEMS ON SALE! CHECK IT OUT!"
+      "content": "#saldão"
     }
   },
+
+  // "rich-text#ntfn1": {
+  //   "props": {
+  //     "text": "produtos com até ",
+  //     "blockClass": "ntfn1"
+  //   }
+  // },
+  // "rich-text#ntfn2": {
+  //   "props": {
+  //     "text": "**60% de desconto** ",
+  //     "blockClass": "ntfn2"
+  //   }
+  // },
+  // "rich-text#ntfn3": {
+  //   "props": {
+  //     "text": "+",
+  //     "blockClass": "ntfn3"
+  //   }
+  // },
+
+
   "flex-layout.row#3-desktop": {
     "props": {
       "blockClass": "menu-link",
