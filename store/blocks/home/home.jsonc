@@ -10,6 +10,26 @@
     ]
   },
 
+  "responsive-layout.desktop": {
+    "children":[
+      "__fold__.experimentalLazyAssets",
+      "list-context.image-list#home",
+      "flex-layout.row#dealsDesk",
+      "rich-text#slider-categories-title",
+      "list-context.image-list#home-categories",
+      "rich-text#slider-topSeller",
+      "flex-layout.row#shelf-topSeller",
+      "flex-layout.row#cards",
+      "flex-layout.row#banners",
+      "rich-text#dummie",
+      "rich-text#slider-lastItems",
+      "flex-layout.row#lastItems",
+      "rich-text#slider-also",
+      "flex-layout.row#also",
+      "newsletter"
+    ]
+  },
+
   "responsive-layout.mobile": {
     "children": [
       "__fold__.experimentalLazyAssets",
@@ -40,15 +60,15 @@
       "height": 720,
       "images": [
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
+          "image": "assets/bannerPrincipal.png",
           "mobileImage": "assets/applewatch.png"
         },
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
+          "image": "assets/bannerPrincipal.png",
           "mobileImage": "assets/applewatch.png"
         },
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
+          "image": "assets/bannerPrincipal.png",
           "mobileImage": "assets/applewatch.png"
         }
       ]

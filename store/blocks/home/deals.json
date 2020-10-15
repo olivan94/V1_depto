@@ -30,6 +30,84 @@
       "text": " **Frete grátis** \n Acima de R$ 199",
       "blockClass": "textDeal1"
     }
+  },
+
+  "flex-layout.row#dealsDesk": {
+    "children": [
+      "flex-layout.col#deal1",
+      "flex-layout.col#deal2",
+      "flex-layout.col#deal3",
+      "flex-layout.col#deal4"
+    ],
+    "props": {
+      "blockClass": "dealsDesk"
+    }
+  },
+  "flex-layout.col#deal2": {
+    "children": [
+      "image#deal2",
+      "rich-text#deal2"
+    ],
+    "props": {
+      "blockClass": "deal1"
+    }
+  },
+  "image#deal2": {
+    "props": {
+      "src": "assets/return.svg", 
+      "maxHeight": "28px",
+      "blockClass": "imageDeal1"
+    }
+  },
+  "rich-text#deal2": {
+    "props": {
+      "text": " **Troca grátis** \n Na 1ª troca",
+      "blockClass": "textDeal1"
+    }
+  },
+  "flex-layout.col#deal3": {
+    "children": [
+      "image#deal3",
+      "rich-text#deal3"
+    ],
+    "props": {
+      "blockClass": "deal1"
+    }
+  },
+  "image#deal3": {
+    "props": {
+      "src": "assets/sale.svg", 
+      "maxHeight": "25px",
+      "blockClass": "imageDeal1"
+    }
+  },
+  "rich-text#deal3": {
+    "props": {
+      "text": " **Descontos progressivos** \n Compre mais de um item",
+      "blockClass": "textDeal1"
+    }
+  },
+  "flex-layout.col#deal4": {
+    "children": [
+      "image#deal4",
+      "rich-text#deal4"
+    ],
+    "props": {
+      "blockClass": "deal1"
+    }
+  },
+  "image#deal4": {
+    "props": {
+      "src": "assets/credit-card.svg", 
+      "maxHeight": "21px",
+      "blockClass": "imageDeal1"
+    }
+  },
+  "rich-text#deal4": {
+    "props": {
+      "text": " **Até 12x sem juros** \n Com parcela mínima de R$ 10",
+      "blockClass": "textDeal1"
+    }
   }
 }
 

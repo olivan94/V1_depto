@@ -55,6 +55,15 @@
   align-items: center;
 }
 
+.container--notification {
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+}
+.paragraph--notification {
+  font: 16px/12px 'Nunito Sans';
+  color: #ffffff;
+}
 /* ----------------------pra cima eu fiz --------------------------- */
 
 .container--link {

@@ -51,10 +51,10 @@
   padding-top: 15px;
 }
 
-.container {
+/* .container {
   padding: 0px;
   margin: 0px;
-}
+} */
 
 /* .newsletter {
   background-color: #4F32FE;
@@ -67,6 +67,7 @@
   max-height: 171px;
   max-width: 139px;
 }
+
 
 .container--newsletter {
   padding: 0 !important;

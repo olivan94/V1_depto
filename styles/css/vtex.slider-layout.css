@@ -2,11 +2,11 @@
   justify-content: center;
 }
 .sliderLayoutContainer--carousel {
-  background-color: #F0F0F0;
+  background-color: #000000;
 }
 
 .sliderTrackContainer {
-  max-width: 1520px;
+  max-width: 1260px;
 }
 
 .paginationDotsContainer {
@@ -45,7 +45,7 @@
 
 .sliderTrack--carousel2 {
   height: 200px;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .paginationDot--isActive {
