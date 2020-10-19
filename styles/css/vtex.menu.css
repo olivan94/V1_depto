@@ -14,12 +14,36 @@
 
 .menuContainerNav {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 
-.menuContainer {
+.styledLinkContainer--menuItemHeader {
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.styledLinkContent--menuItemHeader {
     font: normal normal 600 15px/12px 'Nunito Sans';
-    font-weight: 600;
     color: #000000;
+}
+
+.menuItem--menuItemHeader {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-right: 50px;
+}
+
+@media only screen and (min-width: 640px) and (max-width: 1920px) {
+	.styledLinkContainer--menuItemFooter {
+    padding: 0px;
+		margin: 0px;
+		border: none;
+	}
+
+	.styledLinkContent--menuItemFooter {
+		font: normal normal normal 14px/25px 'Nunito Sans';
+		color: #847B91;
+	}
 }

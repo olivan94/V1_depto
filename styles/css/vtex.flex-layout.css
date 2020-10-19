@@ -90,6 +90,29 @@
   font-size: 14px;
 }
 
+.flexCol--colSaldao {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexColChild--colSaldao {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+.flexRow--r3desktop {
+  display: flex;
+  justify-content: center
+}
+
+.flexRowContent--r3desktop {
+  max-width: 1260px;
+  align-items: center;
+}
+
 .flexRow--deals {
   background-color: #4F32FE;
   max-height: 77px;
@@ -210,6 +233,19 @@
   border-right: 1px solid #E4DDEE;
 }
 
+.flexRowContent--certificados {
+  gap: 20px;
+}
+
+.flexRowContent--footerDesk {
+  justify-content: center;
+  column-gap: 81px;
+}
+
+.flexRow--osCara {
+  margin-bottom: 25px;
+}
+
 @media only screen and (min-width: 640px) and (max-width: 1920px) {
   .flexRow--r2desktop {
     display: flex;
@@ -221,4 +257,25 @@
     justify-content: flex-start;
     align-items: center;
   }
+
+  .flexRowContent--imagPagamento {
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-template-rows: 30px 30px;
+    row-gap: 10px;
+    align-items: flex-start;
+    align-content: flex-start;
+  }
+
+  .flexRowContent--imagPagamento .stretchChildrenWidth {
+    width: auto !important;
+  }
+
+  .flexRow--certificados {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  
 }

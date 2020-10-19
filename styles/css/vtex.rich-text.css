@@ -65,6 +65,12 @@
   font: 16px/12px 'Nunito Sans';
   color: #ffffff;
 }
+
+.paragraph--saldaoTxt {
+  color: #4F32FE;
+  font: normal normal 800 15px/12px 'Nunito Sans';
+  margin-left: 5px;
+}
 /* ----------------------pra cima eu fiz --------------------------- */
 
 .container--link {
@@ -116,6 +122,14 @@
   font-weight: 700;
 }
 
+.paragraph--footer {
+  font: normal normal bold 10px/14px 'Nunito Sans';
+  color: #847B91;
+  width: 273px;
+  margin-top: 25px;
+  margin-bottom: 16px;
+}
+
 @media only screen and (min-width: 640px) {
   .container--question .strong {
     font-size: 40px;
@@ -135,5 +149,19 @@
 
   .container--title .paragraph {
     line-height: 1.3em;
+  }
+
+  .container--footerMenuTitle {
+    background-color: transparent;
+  }
+
+  .paragraph--footerMenuTitle {
+    padding-left: 0px;
+    margin-bottom: 25px;
+  }
+
+  .container--footer {
+    justify-content: center;
+    align-items: center;
   }
 }

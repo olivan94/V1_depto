@@ -65,11 +65,48 @@
       "horizontalAlign": "center",
       // "preventHorizontalStretch": true,
       // "preventVerticalStretch": true,
-      "fullWidth": true
+      "fullWidth": true,
+      "colSizing": "auto"
     },
     "children": [
-      "vtex.menu@2.x:menu#category-menu"
+      "drawer#desk",
+      "vtex.menu@2.x:menu#category-menu",
+      "flex-layout.col#saldao"
     ]
+  },
+
+  "drawer#desk": {
+    "props":{
+      "maxWidth": 100
+    }
+  },
+
+  "flex-layout.col#saldao": {
+    "props":{
+      "blockClass": "colSaldao",
+      "horizontalAlign": "center",
+      "width": "auto"
+    },
+    "children": [
+      "image#saldao",
+      "rich-text#saldaoHeader"
+    ]
+  },
+
+  "image#saldao": {
+    "props": {
+      "src": "assets/saleRoxo.svg",
+      "maxWidth": "20px"
+    }
+  },
+
+  "rich-text#saldaoHeader": {
+    "props":{
+      "text": "**Saldão**",
+      "blockClass": "saldaoTxt",
+      "textAlignment":"CENTER",
+      "textPosition": "CENTER"
+    }
   },
 
 

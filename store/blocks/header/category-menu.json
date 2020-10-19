@@ -17,6 +17,7 @@
 
   "menu-item#category-todos": {
     "props": {
+      "blockClass": "menuItemHeader",
       "id": "menu-item-category-todos",
       "type": "custom",
       "iconId": null,
@@ -457,6 +458,7 @@
 
   "menu-item#category-eletronicos": {
     "props": {
+      "blockClass": "menuItemHeader",
       "id": "menu-item-category-eletronicos",
       "type": "custom",
       "iconId": null,
@@ -827,6 +829,7 @@
 
   "menu-item#category-celulares":{
     "props": {
+      "blockClass": "menuItemHeader",
       "id": "menu-item-category-celulares",
       "type": "custom",
       "iconId": null,
@@ -843,6 +846,7 @@
 
   "menu-item#category-informatica":{
     "props": {
+      "blockClass": "menuItemHeader",
       "id": "menu-item-category-informatica",
       "type": "custom",
       "iconId": null,
@@ -859,6 +863,7 @@
 
   "menu-item#category-casa":{
     "props": {
+      "blockClass": "menuItemHeader",
       "id": "menu-item-category-casa",
       "type": "custom",
       "iconId": null,
@@ -875,6 +880,7 @@
   
   "menu-item#category-decor":{
     "props": {
+      "blockClass": "menuItemHeader",
       "id": "menu-item-category-decor",
       "type": "custom",
       "iconId": null,
@@ -891,6 +897,7 @@
 
   "menu-item#category-beleza":{
     "props": {
+      "blockClass": "menuItemHeader",
       "id": "menu-item-category-beleza",
       "type": "custom",
       "iconId": null,
@@ -907,6 +914,7 @@
 
   "menu-item#category-midia":{
     "props": {
+      "blockClass": "menuItemHeader",
       "id": "menu-item-category-midia",
       "type": "custom",
       "iconId": null,
