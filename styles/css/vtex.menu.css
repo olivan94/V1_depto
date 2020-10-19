@@ -11,3 +11,15 @@
     color: #847B91;
     line-height: 50px;
 }
+
+.menuContainerNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuContainer {
+    font: normal normal 600 15px/12px 'Nunito Sans';
+    font-weight: 600;
+    color: #000000;
+}

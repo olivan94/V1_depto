@@ -53,6 +53,7 @@
     "children": [
       "logo#desktop",
       "search-bar",
+      "flex-layout.col#spacer",
       "login",
       "minicart.v2"
     ]
@@ -135,6 +136,13 @@
       "href": "/",
       "url": "assets/logo.png",
       "width": "100"
+    }
+  },
+
+  "login": {
+    "props": {
+      "showIconProfile": true,
+      "hideIconLabel": true
     }
   },
 

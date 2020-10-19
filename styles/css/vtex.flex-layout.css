@@ -1,39 +1,43 @@
+
+.flexRowContent--r2desktop .stretchChildrenWidth {
+  width: auto !important;
+}
+
 .flexRow--cards {
   display: flex;
 }
 
 .flexRowContent--cards {
+  display: grid;
+  grid-template-columns: 188px 188px;
+  grid-template-rows: auto;
+  grid-template-areas: "card1 card2" "card3 card4" "card5 card6";
   justify-content: center;
+  column-gap: 10px;
+  row-gap: 20px;
   margin-top: 50px;
-  gap: 22px;
-  height: 301px;
-  width: 1260px;
 }
 
-@media (max-width: 630px) {
+@media only screen and (min-width: 1000px) and (max-width: 1920px) {
   .flexRowContent--cards {
-    display: grid;
-    grid-template-columns: 188px 188px;
-    grid-template-rows: auto;
-    grid-template-areas: "card1 card2" "card3 card4" "card5 card6";
+    display: flex;
     justify-content: center;
-    column-gap: 10px;
-    row-gap: 20px;
     margin-top: 50px;
+    gap: 22px;
+    height: 301px;
+    width: 1260px;
+  }
+
+  .flexRowContent--banners .stretchChildrenWidth {
+    max-width: 619px;
+    max-height: 276px;
+    margin: 0 11px;
   }
 }
 
 .flexRowContent--banners {
   margin: 50px 0;
   justify-content: center;
-}
-
-@media (min-width: 1020px) {
-  .flexRowContent--banners .stretchChildrenWidth {
-    max-width: 619px;
-    max-height: 276px;
-    margin: 0 11px;
-  }
 }
 
 
@@ -204,4 +208,17 @@
 
 .flexRowContent--mobileOsCara .stretchChildrenWidth:first-child {
   border-right: 1px solid #E4DDEE;
+}
+
+@media only screen and (min-width: 640px) and (max-width: 1920px) {
+  .flexRow--r2desktop {
+    display: flex;
+    justify-content: center;
+  }
+
+  .flexRowContent--r2desktop {
+    max-width: 1260px;
+    justify-content: flex-start;
+    align-items: center;
+  }
 }

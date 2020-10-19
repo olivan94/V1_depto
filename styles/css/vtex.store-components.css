@@ -6,7 +6,7 @@
   text-decoration: underline;
 }
 
-/* --------------------------baixo------------------------------- */
+/* --------------------------baixo------------midia no final da pagina------------------- */
 
 
 .searchBarContainer {
@@ -46,8 +46,11 @@
   color: white;
 }
 
+.logoContainer {
+  padding: 0;
+}
+
 .logoImage {
-  /* height: 33px; */
   padding-top: 15px;
 }
 
@@ -83,6 +86,9 @@
   max-width: 328px;
   padding: 40px 0;
   max-height: 271px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .label--newsletter {
@@ -227,7 +233,7 @@
   margin: 1rem 0;
 }
 
-@media only screen and (min-width: 640px) {
+/* @media only screen and (min-width: 640px) {
   .newsletter .container {
     padding: 140px;
   }
@@ -248,7 +254,7 @@
     margin-bottom: 0px;
     max-height: 600px;
   }
-}
+} */
 
 .productImagesContainer--quickview .carouselContainer {
   justify-content: flex-start;
@@ -272,4 +278,75 @@
   color: #3f3f40;
   font-weight: bold;
   font-size: 30px;
+}
+
+
+@media only screen and (min-width: 640px) and (max-width: 1920px) {
+  .container--newsletter {
+    margin: auto;
+    max-width: none;
+    margin-top: 100px;
+    max-height: 305px;
+  }
+
+  .form--newsletter {
+    max-width: none;
+    padding: 75px 0;
+    max-height: none;
+    height: 305px;
+  }
+
+  .inputGroup--newsletter {
+    flex-direction: row;
+    padding-top: 34px;
+  }
+
+  .inputGroup--newsletter :global(.vtex-input-prefix__group) {
+    width: 453px;
+  }
+
+  .buttonContainer--newsletter {
+    padding-left: 20px;
+  }
+
+  .buttonContainer--newsletter :global(.vtex-button__label) {
+    padding: 0;
+  }
+
+  .logoImage {
+    padding-top: 17px;
+    margin-right: 69px;
+  }
+}
+
+@media only screen and (min-width: 1030px) and (max-width: 1920px) {
+
+  .searchBarInnerContainer {
+    width: 898px;
+    max-width: 100%;
+  }
+
+  .searchBarContainer :global(.vtex-input-prefix__group) {
+    background-color: transparent;
+    border-bottom: 1px solid #847B91;
+  }
+  
+  .searchBarContainer :global(.vtex-styleguide-9-x-input) {
+    padding-left: 0px;
+  }
+  
+  .searchBarContainer ::placeholder {
+    color: #847B91;
+    font-weight: 400;
+    font: 14px/12px Nunito Sans;
+  }
+  
+  .searchBarContainer :global(.vtex-input__suffix){
+    background-color: transparent;
+    padding: 0;
+  }
+
+  .searchBarIcon {
+    color: #4F32FE;
+  }
 }
