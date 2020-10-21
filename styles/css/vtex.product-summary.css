@@ -40,3 +40,10 @@
 .image {
   border-radius: 0.25rem;
 }
+
+/* --------------------------------------------baixo-------------------------------------------------- */
+
+.element :global(.vtex-flex-layout-0-x-flexRowContent) {
+  height: 35px;
+  margin-bottom: 2px;
+}

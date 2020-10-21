@@ -4,7 +4,8 @@
     "props": {
       "context": {
         "skusFilter": "ALL",
-        "simulationBehavior": "skip"
+        "simulationBehavior": "skip",
+        "maxItemsPerPage": 9
       }
     }
   },
@@ -27,7 +28,8 @@
     "props": {
       "context": {
         "skusFilter": "ALL",
-        "simulationBehavior": "skip"
+        "simulationBehavior": "skip",
+        "maxItemsPerPage": 9
       }
     }
   },
@@ -37,7 +39,8 @@
     "props": {
       "context": {
         "skusFilter": "ALL",
-        "simulationBehavior": "skip"
+        "simulationBehavior": "skip",
+        "maxItemsPerPage": 9
       }
     }
   },
@@ -47,10 +50,12 @@
     "props": {
       "context": {
         "skusFilter": "ALL",
-        "simulationBehavior": "skip"
+        "simulationBehavior": "skip",
+        "maxItemsPerPage": 9
       }
     }
   },
+
 
   "search-result-layout": {
     "blocks": [
@@ -62,7 +67,6 @@
 
   "search-result-layout.desktop": {
     "children": [
-      "flex-layout.row#searchbread",
       "flex-layout.row#searchtitle",
       "flex-layout.row#result"
     ],
@@ -75,19 +79,23 @@
       }
     }
   },
-  "flex-layout.row#searchbread": {
-    "children": ["breadcrumb.search"],
-    "props": {
-      "preserveLayoutOnMobile": true,
-      "fullWidth": true
-    }
-  },
+  // "flex-layout.row#searchbread": {
+  //   "children": ["breadcrumb.search"],
+  //   "props": {
+  //     "preserveLayoutOnMobile": true,
+  //     "fullWidth": true
+  //   }
+  // },
   "flex-layout.row#searchtitle": {
-    "children": ["search-title.v2"]
+    "children": ["search-title.v2"],
+    "props": {
+      "blockClass": "searchTitle"
+    }
   },
   "flex-layout.row#result": {
     "children": ["flex-layout.col#filter", "flex-layout.col#content"],
     "props": {
+      "blockClass": "result",
       "preventHorizontalStretch": true,
       "fullWidth": true
     }
@@ -107,7 +115,8 @@
     ],
     "props": {
       "width": "grow",
-      "preventVerticalStretch": true
+      "preventVerticalStretch": true,
+      "blockClass": "content"
     }
   },
   "flex-layout.row#searchinfo": {
@@ -147,7 +156,6 @@
   "search-result-layout.mobile": {
     "children": [
       "flex-layout.row#searchinfomobile",
-      "flex-layout.row#searchbread",
       "flex-layout.row#productCountMobile",
       "flex-layout.row#fetchprevious",
       "flex-layout.row#contentmobile",
@@ -208,7 +216,7 @@
     }
   },
   "search-not-found-layout": {
-    "children": ["flex-layout.row#searchbread", "flex-layout.row#notfound"]
+    "children": ["flex-layout.row#notfound"]
   },
 
   "flex-layout.row#notfound": {

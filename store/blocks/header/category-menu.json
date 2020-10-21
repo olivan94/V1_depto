@@ -24,7 +24,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/home---decor/",
+        "href": "/todos/",
         "noFollow": false,
         "tagTitle": "Todos os departamentos",
         "text": "Todos os departamentos"
@@ -358,7 +358,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/clothing/",
+        "href": "/celulares/",
         "noFollow": false,
         "tagTitle": "Celulares",
         "text": "Celulares"
@@ -465,7 +465,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/",
+        "href": "/eletronicos/",
         "noFollow": false,
         "tagTitle": "Eletrônicos",
         "text": "Eletrônicos"
@@ -836,7 +836,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/home---decor/",
+        "href": "/celulares/",
         "noFollow": false,
         "tagTitle": "Celulares",
         "text": "Celulares"
@@ -853,7 +853,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/home---decor/",
+        "href": "/informatica/",
         "noFollow": false,
         "tagTitle": "Informática",
         "text": "Informática"

@@ -1,0 +1,67 @@
+.container--layout {
+    max-width: 1260px;
+}
+
+.galleryTitle--layout {
+    font: normal normal bold 30px/31px 'Nunito Sans';
+    margin-top: 46px;
+    margin-bottom: 50px;
+}
+
+.totalProducts--layout {
+    color: #4F32FE;
+    font: normal normal 600 12px/31px 'Nunito Sans';
+}
+
+.totalProductsMessage {
+    color: #000000;
+    font: normal normal 600 10px/31px 'Nunito Sans';
+}
+
+.filterPopupTitle {
+    font: normal normal normal 14px/12px 'Nunito Sans';
+    color: #847B91;
+    text-transform: none;
+    margin-left: 21px;
+}
+
+.orderByButton {
+    height: 43px;
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid #E4DDEE;
+    width: 317px;
+    border-radius: 21px;
+    justify-content: space-between;
+}
+
+.orderByText {
+    font: normal normal normal 14px/31px Nunito Sans;
+    color: #000000;
+}
+
+.filterPopupArrowIcon {
+    color: #4F32FE;
+}
+
+.gallery {
+    display: grid;
+    padding: 0px;
+    margin-left: 65px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    column-gap: 19px;
+}
+
+.galleryItem {
+    max-width: 300px !important;
+    padding: 0px;
+}
+
+.filtersWrapper {
+    width: 244px;
+    font-family: 'Nunito Sans';
+    font-size: 14px;
+    line-height: 31px;
+}
+

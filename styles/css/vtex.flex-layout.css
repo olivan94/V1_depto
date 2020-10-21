@@ -277,5 +277,13 @@
     margin-top: 50px;
   }
 
-  
+  .flexRow--footerDesk {
+    margin-top: 53px;
+  }
+
+  /* --------------------------------------------produtos-baixo------------------------------------------- */
+
+  .flexRow--searchTitle :global(.vtex-store-components-3-x-container) {
+    padding: 0px;
+  }
 }
