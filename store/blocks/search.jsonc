@@ -222,7 +222,8 @@
   "flex-layout.row#notfound": {
     "children": ["not-found"],
     "props": {
-      "fullWidth": true
+      "fullWidth": true,
+      "blockClass": "notFound"
     }
   },
 

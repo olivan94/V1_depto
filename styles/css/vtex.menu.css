@@ -66,11 +66,35 @@
 		font: normal normal normal 14px/25px 'Nunito Sans';
 		color: #847B91;
   }
+
+  .menuContainer {
+    justify-content: space-between;  
+    width: 1102px;
+  }
+
+  .menuContainer--menuFooter {
+    width: inherit;  
+  }
     
   .menuItem--menuItemHeader {
     align-items: center;
     justify-content: center;
     display: flex;
-    margin-right: 50px;
+    border: none;
+    padding: 0px;
+    height: auto;
+  }
+
+  .menuItem--menuItemHeader:first-child {
+    height: auto;
+    align-items: flex-start;
+  }
+
+  .menuItem--menuItemHeader:last-child .styledLinkContent--menuItemHeader {
+    color: #000000;
+  }
+
+  .menuContainerNav {
+    width: auto;
   }
 }

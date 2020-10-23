@@ -18,26 +18,7 @@
   margin-top: 50px;
 }
 
-@media only screen and (min-width: 1020px) and (max-width: 1920px) {
-  .flexRowContent--cards {
-    display: flex;
-    justify-content: center;
-    margin-top: 100px;
-    gap: 22px;
-    height: 301px;
-    width: 1260px;
-  }
 
-  .flexRowContent--banners {
-    margin-bottom: 100px;
-  }
-
-  .flexRowContent--banners .stretchChildrenWidth {
-    max-width: 619px;
-    max-height: 276px;
-    margin: 0 11px;
-  }
-}
 
 .flexRowContent--banners {
   margin: 50px 0;
@@ -100,6 +81,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  padding-left: 54px;
 }
 
 .flexColChild--colSaldao {
@@ -116,6 +98,11 @@
 .flexRowContent--r3desktop {
   max-width: 1260px;
   align-items: center;
+  justify-content: flex-start;
+}
+
+.flexRowContent--r3desktop .stretchChildrenWidth:first-child {
+  margin-right: 10px;
 }
 
 .flexRow--deals {
@@ -143,6 +130,7 @@
   justify-content: space-between;
   align-items: center;
   max-width: 1260px;
+  height: 77px;
 }
 
 .flexRowContent--deals {
@@ -320,6 +308,27 @@
   .flexRow--productMain :global(.vtex-store-components-3-x-container) {
     max-width: 1260px;
     padding: 0px;
+  }
+}
+
+@media only screen and (min-width: 1020px) and (max-width: 1920px) {
+  .flexRowContent--cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 22px;
+    height: 301px;
+    width: 1260px;
+  }
+
+  .flexRowContent--banners {
+    margin-bottom: 100px;
+  }
+
+  .flexRowContent--banners .stretchChildrenWidth {
+    max-width: 619px;
+    max-height: 276px;
+    margin: 0 11px;
   }
 }
 
