@@ -1,38 +1,58 @@
 .styledLinkContainer--menuItemFooter {
-    padding-left: 50px;
-    margin: 0px;
-    border-bottom: 1px solid #f6f5f8;
+  padding-left: 50px;
+  margin: 0px;
+  border-bottom: 1px solid #f6f5f8;
 }
 
 .styledLinkContent--menuItemFooter {
-    font-family: 'Nunito Sans';
-    font-size: 14px;
-    font-weight: 400;
-    color: #847B91;
-    line-height: 50px;
+  font-family: 'Nunito Sans';
+  font-size: 14px;
+  font-weight: 400;
+  color: #847B91;
+  line-height: 50px;
 }
 
 .menuContainerNav {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 335px;
 }
 
-.styledLinkContainer--menuItemHeader {
-    padding-left: 0px;
-    margin: 0px;
-}
-
-.styledLinkContent--menuItemHeader {
-    font: normal normal 600 15px/12px 'Nunito Sans';
-    color: #000000;
+.menuContainer {
+  width: inherit;
 }
 
 .menuItem--menuItemHeader {
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    margin-right: 50px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  align-self: stretch;
+  border-bottom: 1px solid #E4DDEE;
+  padding-left: 29px;
+}
+
+.menuItem--menuItemHeader:first-child {
+  height: 36px;
+  align-items: flex-start;
+}
+
+.menuItem--menuItemHeader:last-child {
+  border-bottom: none;
+}
+
+.menuItem--menuItemHeader:last-child .styledLinkContent--menuItemHeader {
+  color: #4F32FE;
+}
+
+.styledLinkContainer--menuItemHeader {
+  padding-left: 0px;
+  margin: 0px;
+}
+
+.styledLinkContent--menuItemHeader {
+  font: normal normal 600 15px/12px 'Nunito Sans';
+  color: #000000;
 }
 
 @media only screen and (min-width: 640px) and (max-width: 1920px) {
@@ -45,5 +65,12 @@
 	.styledLinkContent--menuItemFooter {
 		font: normal normal normal 14px/25px 'Nunito Sans';
 		color: #847B91;
-	}
+  }
+    
+  .menuItem--menuItemHeader {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-right: 50px;
+  }
 }

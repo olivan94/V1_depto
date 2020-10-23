@@ -107,5 +107,18 @@
       "submit": "CADASTRAR",
       "blockClass": "newsletter"
     }
+  },
+
+  "shelf.relatedProducts": {
+    "blocks":["product-summary.shelf"],
+    "props": {
+      "blockClass": "relacionados",
+      "recomendation": "suggestions",
+      "productList":{
+        "maxItems": 4,
+        "arrows": true,
+        "titleText": "Quem viu, viu também"
+      }
+    }
   }
 }

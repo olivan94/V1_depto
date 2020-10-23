@@ -3,6 +3,16 @@
   padding: 0;
 }
 
+.closeIconContainer {
+  max-height: 30px;
+  margin: 10px 0px;
+}
+
+.closeIconButton {
+  padding: 0px 0px 0px 22.5px;
+  color: #4F32FE;
+}
+
 @media only screen and (min-width: 640px) {
   .openIconContainer {
     color: #000000;

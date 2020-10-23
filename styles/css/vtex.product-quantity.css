@@ -1,0 +1,42 @@
+.quantitySelectorContainer {
+  margin-top: 130px;
+}
+
+.quantitySelectorTitle {
+  font: normal normal normal 14px 'Nunito Sans';
+  color: #000;  
+}
+
+.quantitySelectorStepper :global(.vtex-numeric-stepper__input) {
+  font: normal normal normal 14px 'Nunito Sans';
+  background-color: #F6F5F8;
+  border: none;
+  padding: 0px;
+  max-width: 56px;
+}
+
+.quantitySelectorStepper :global(.vtex-numeric-stepper__plus-button) {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width: 3em;
+  transition: opacity 150ms;
+  background-color: #F6F5F8;
+  border-color: #F6F5F8;
+}
+
+.quantitySelectorStepper :global(.vtex-numeric-stepper__minus-button) {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  width: 3em;
+  transition: opacity 150ms;
+  background-color: #F6F5F8;
+  border-color: #F6F5F8;
+}
+
+.quantitySelectorStepper :global(.vtex-numeric-stepper__plus-button__text) {
+  font: normal normal normal 14px 'Nunito Sans';
+}
+
+.quantitySelectorStepper :global(.vtex-numeric-stepper__minus-button__text) {
+  font: normal normal normal 14px 'Nunito Sans';
+}

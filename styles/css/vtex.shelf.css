@@ -1,0 +1,11 @@
+.dot--isActive {
+  background-color: #4f32fe;
+}
+
+.title--relacionados {
+  font: normal normal bold 24px/12px Nunito Sans;
+  color: #000;
+  padding: 0px;
+  margin-top: 100px;
+  margin-bottom: 27px;
+}

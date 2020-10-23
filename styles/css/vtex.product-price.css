@@ -5,19 +5,19 @@
 }
 
 .sellingPrice {
-  color: #3f3f40;
-  font-size: 1.25rem;
+  font: normal normal 900 20px 'Nunito Sans';
+  color: #000000;
 }
 
-.sellingPriceValue {
+/* .sellingPriceValue {
   font-size: 2.25rem;
   font-weight: 700;
-}
+} */
 
 .installments {
   color: #000000;
   margin-bottom: 1rem;
-  font-family: 'Nunito Sans';
+  font: normal normal normal 12px 'Nunito Sans';
 }
 
 .savings {

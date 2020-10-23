@@ -164,7 +164,9 @@
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#topSeller"],
     "props": {
-      "orderBy": "OrderByTopSaleDESC"
+      "orderBy": "OrderByTopSaleDESC",
+      "hideUnavailableItems": true,
+      "category": "19"
     }
   },
   "slider-layout#topSeller": {
@@ -174,7 +176,7 @@
         "tablet": 3,
         "phone": 2
       },
-      "showNavigationArrows": false,
+      "showNavigationArrows": true,
       "infinite": true,
       "fullWidth": false,
       "blockClass": "shelf-topSeller"
@@ -278,7 +280,9 @@
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#lastItems"],
     "props": {
-      "orderBy": "OrderByTopSaleDESC"
+      "orderBy": "OrderByTopSaleDESC",
+      "hideUnavailableItems": true,
+      "category": "19"
     }
   },
   "slider-layout#lastItems": {
@@ -309,7 +313,9 @@
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#also"],
     "props": {
-      "orderBy": "OrderByTopSaleDESC"
+      "orderBy": "OrderByTopSaleDESC",
+      "hideUnavailableItems": true,
+      "category": "19"
     }
   },
   "slider-layout#also": {

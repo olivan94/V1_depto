@@ -18,14 +18,18 @@
   margin-top: 50px;
 }
 
-@media only screen and (min-width: 1000px) and (max-width: 1920px) {
+@media only screen and (min-width: 1020px) and (max-width: 1920px) {
   .flexRowContent--cards {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 100px;
     gap: 22px;
     height: 301px;
     width: 1260px;
+  }
+
+  .flexRowContent--banners {
+    margin-bottom: 100px;
   }
 
   .flexRowContent--banners .stretchChildrenWidth {
@@ -72,7 +76,8 @@
   max-height: 55px;
 
   align-items: center;
-  padding-left: 28px;
+  padding-left: 29.5px;
+  padding-right: 20px;
   background-color: #ffffff;
 }
 
@@ -125,7 +130,7 @@
 
 .flexRow--dealsDesk .stretchChildrenWidth {
   align-items: center;
-  margin: 0 93px;
+  margin: 0px;
   width: auto !important;
 }
 
@@ -135,8 +140,9 @@
 
 .flexRowContent--dealsDesk {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  max-width: 1260px;
 }
 
 .flexRowContent--deals {
@@ -246,6 +252,30 @@
   margin-bottom: 25px;
 }
 
+/* .flexRowContent--productMain .stretchChildrenWidth {
+  width: auto !important;
+} */
+
+.flexRow--productMain {
+  margin-top: 24px;
+}
+
+.flexCol--productRightCol {
+  margin-left: 64px;
+  margin-right: 106px;
+}
+
+.flexRowContent--buyButton {
+  margin-top: 18px;
+  margin-bottom: 30px;
+}
+
+.flexRowContent--buyButton :global(.vtex-button) {
+  height: 53px;
+  border-radius: 26px;
+  background-color: #4F32FE;
+}
+
 @media only screen and (min-width: 640px) and (max-width: 1920px) {
   .flexRow--r2desktop {
     display: flex;
@@ -285,5 +315,16 @@
 
   .flexRow--searchTitle :global(.vtex-store-components-3-x-container) {
     padding: 0px;
+  }
+
+  .flexRow--productMain :global(.vtex-store-components-3-x-container) {
+    max-width: 1260px;
+    padding: 0px;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .flexRowContent--dealsDesk {
+    justify-content: space-evenly;
   }
 }

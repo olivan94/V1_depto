@@ -24,6 +24,7 @@
   },
   "flex-layout.row#selling-price": {
     "props": {
+      "blockClass": "sellingPrice",
       "colGap": 2,
       "preserveLayoutOnMobile": true,
       "preventHorizontalStretch": true,
@@ -35,6 +36,7 @@
   },
   "flex-layout.row#selling-price-savings": {
     "props": {
+      "blockClass": "savings",
       "colGap": 2,
       "preserveLayoutOnMobile": true,
       "preventHorizontalStretch": true,
