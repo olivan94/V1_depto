@@ -68,8 +68,7 @@
   }
 
   .menuContainer {
-    justify-content: space-between;  
-    width: 1102px;
+    justify-content: space-between;
   }
 
   .menuContainer--menuFooter {

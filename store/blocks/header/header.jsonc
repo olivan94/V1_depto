@@ -28,12 +28,13 @@
 
   "rich-text#saldao": {
     "props": {
-      "text": "**#saldão** produtos com até **60% de desconto** + **frete grátis** + **12x sem juros**",
+      "text": "**#saldão** produtos com até **60% de desconto** *+* **frete grátis** *+* **12x sem juros**",
       "textAlignment": "center",
       "textPosition": "center",
       "blockClass": "notification"
     }
   },
+
   // "rich-text#notification": {
   //   "props": {
   //     "text": "produtos com até **60% de desconto** + **frete grátis** + **12x sem juros**",

@@ -103,6 +103,15 @@
 
 .flexRowContent--r3desktop .stretchChildrenWidth:first-child {
   margin-right: 10px;
+  flex-grow: 1;
+}
+
+.flexRowContent--r3desktop .stretchChildrenWidth {
+  flex-grow: 150;
+}
+
+.flexRowContent--r3desktop .stretchChildrenWidth:last-child {
+  flex-grow: 1;
 }
 
 .flexRow--deals {
@@ -254,14 +263,18 @@
 }
 
 .flexRowContent--buyButton {
-  margin-top: 18px;
-  margin-bottom: 30px;
+  margin: 30px 0px
 }
 
 .flexRowContent--buyButton :global(.vtex-button) {
   height: 53px;
   border-radius: 26px;
   background-color: #4F32FE;
+}
+
+.flexRow--footer-menu-rows :global(.vtex-store-components-3-x-container ) {
+  margin: 0px;
+  padding: 0px;
 }
 
 @media only screen and (min-width: 640px) and (max-width: 1920px) {
@@ -308,6 +321,10 @@
   .flexRow--productMain :global(.vtex-store-components-3-x-container) {
     max-width: 1260px;
     padding: 0px;
+  }
+
+  .flexRowContent--sellingPrice {
+    margin-bottom: 5px;
   }
 }
 

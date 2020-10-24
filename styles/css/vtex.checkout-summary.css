@@ -1,0 +1,24 @@
+.summaryItemLabel {
+  font: normal normal normal 14px/20px Nunito Sans;
+}
+
+.price {
+  font: normal normal 800 14px/20px Nunito Sans;
+}
+
+.summarySmallContent .summaryItemContainer:first-child {
+  margin-top: 4px;
+}
+
+.summarySmallContent .summaryItemContainer:last-child {
+  margin-top: 0px;
+  padding-bottom: 19px;
+}
+
+.summarySmallDisclaimer {
+  font: normal normal normal 13px/20px Nunito Sans;
+  color: #847B91;
+  margin: 0px;
+}
+
+

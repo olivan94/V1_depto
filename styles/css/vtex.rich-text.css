@@ -66,6 +66,24 @@
   color: #ffffff;
 }
 
+.italic--notification {
+  font-style: normal;
+  color: #2CFFF5;
+}
+
+.strong--notification:first-child {
+  font: normal normal 900 22px/12px Nunito Sans;
+  color: #2CFFF5;
+  margin-right: 10px;
+}
+
+.paragraph--notification::after {
+  content: "\276F";
+  font-size: 12px;
+  color: #2CFFF5;
+  margin-left: 15px;
+}
+
 .paragraph--saldaoTxt {
   color: #4F32FE;
   font: normal normal 800 15px/12px 'Nunito Sans';
