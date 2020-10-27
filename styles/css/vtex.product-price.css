@@ -64,5 +64,6 @@
     color: #000000;
     margin-bottom: 1rem;
     font: normal normal normal 12px 'Nunito Sans';
+    display: contents;
   }
 }

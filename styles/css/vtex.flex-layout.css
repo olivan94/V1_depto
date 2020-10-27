@@ -359,7 +359,7 @@
   }
 
   .flexRowContent--productMain {
-    display: block;
+    flex-direction: row;
   }
 
   .flexCol--productRightCol {

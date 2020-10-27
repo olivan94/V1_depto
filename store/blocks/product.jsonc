@@ -1,7 +1,7 @@
 {
   "store.product": {
     "children": [
-      "breadcrumb",
+      // "breadcrumb",
       "flex-layout.row#product-main",
       "flex-layout.row#description",
       "shelf.relatedProducts"
