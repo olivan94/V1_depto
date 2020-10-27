@@ -1,0 +1,36 @@
+.productName {
+    font: normal normal normal 14px Nunito Sans;
+    color: #000000;
+}
+
+.productImageContainer {
+    width: 71px;
+}
+
+.quantityDropdownMobileContainer :global(.vtex-dropdown__container) {
+  border-radius: 14px;
+  height: 29px;
+  width: 66px;
+}
+  
+.quantityDropdownMobileContainer :global(.vtex-dropdown__button) {
+  font: normal normal normal 11px Poppins;
+}
+
+.quantityDropdownContainer :global(.vtex-dropdown__container) {
+  border-radius: 14px;
+  height: 29px;
+  width: 66px;
+}
+
+.quantityDropdownContainer :global(.vtex-dropdown__button) {
+  font: normal normal normal 11px Poppins;
+}
+
+.productPriceContainer {
+  margin-top: 13px;
+}
+
+.productPrice {
+  font: normal normal 800 14px Nunito Sans;
+}

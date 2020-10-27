@@ -277,7 +277,7 @@
   padding: 0px;
 }
 
-@media only screen and (min-width: 640px) and (max-width: 1920px) {
+@media only screen and (min-width: 640px) {
   .flexRow--r2desktop {
     display: flex;
     justify-content: center;
@@ -328,7 +328,7 @@
   }
 }
 
-@media only screen and (min-width: 1020px) and (max-width: 1920px) {
+@media only screen and (min-width: 1020px) {
   .flexRowContent--cards {
     display: flex;
     justify-content: center;
@@ -354,3 +354,19 @@
     justify-content: space-evenly;
   }
 }
+
+/* -----------------------------------------------minicart------------------------------------------------------- */
+
+.flexRowContent--cartProductContainer {
+  padding: 22.5px 24px 22.5px 20px;
+  border-bottom: 1px solid #F6F5F8;
+}
+
+.flexRowContent--quantityContainer {
+  margin-top: 5px;
+}
+
+.flexRowContent--minicart-footer {
+  background-color: #F6F5F8;
+}
+

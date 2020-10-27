@@ -36,6 +36,7 @@
   },
   "vtex.menu@2.x:submenu#category-todos": {
     "props": {
+      "blockClass": "category-todos",
       "width": "auto"
     },
     "children": [
@@ -79,6 +80,7 @@
   },
   "vtex.menu@2.x:submenu#category-todos-eletroHome": {
     "props": {
+      "blockClass": "category-todos-eletroHome",
       "width": "auto"
     },
     "children": [

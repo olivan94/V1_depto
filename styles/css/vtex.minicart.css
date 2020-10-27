@@ -1,33 +1,58 @@
+.minicartContainer :global(.vtex-button__label) {
+  padding: 0px;
+}
+
+/* .minicartContainer :global(.vtex-button) {
+  padding: 0px;
+} */
+
 .openIconContainer {
-    padding: 0px;
+  padding: 0px;
 }
 
 .openIconContainer :global(.vtex-button__label) {
-    padding: 0px;
-    width: 27px;
-    height: 24px;
-    margin-left: 10px;
+  padding: 0px;
+  width: 27px;
+  height: 24px;
+  margin-left: 10px;
+}
+
+.minicartQuantityBadgeDefault {
+  border: 3px solid #ffffff;
+  background-color: #2cfff5;
+  color: #000000;
+  font: normal normal bold 12px 'Nunito Sans';
+}
+
+.popupArrowUp {
+  right: 12px;
+  transform: none;
+  border-top: 2px solid #4F32FE;
 }
 
 .closeIconContainer {
-  max-height: 30px;
-  margin: 10px 0px;
+  max-height: 22.5px;
+  margin: 18px 0px 0px 26px;
 }
   
 .closeIconButton {
-  padding: 17px 0px 0px 26px;
+  padding: 0px;
   color: #4F32FE
 }
 
 .minicartTitle{
-  font: normal normal bold 20px/30px Nunito Sans;
+  font: normal normal bold 20px/30px 'Nunito Sans';
   color: #17100D;
   padding-left: 29px;
-  margin-top: 16px;
+  margin-top: 18px;
   margin-bottom: 20px;
 }
 
 .minicartProductListContainer {
+  padding: 0px;
+}
+
+.popupChildrenContainer {
   padding: 0px;
 }
 

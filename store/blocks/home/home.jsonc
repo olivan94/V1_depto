@@ -176,7 +176,7 @@
         "tablet": 3,
         "phone": 2
       },
-      "showNavigationArrows": true,
+      "showNavigationArrows": "desktopOnly",
       "infinite": true,
       "fullWidth": false,
       "blockClass": "shelf-topSeller"
@@ -292,7 +292,7 @@
         "tablet": 3,
         "phone": 2
       },
-      "showNavigationArrows": false,
+      "showNavigationArrows": "desktopOnly",
       "infinite": true,
       "fullWidth": false,
       "blockClass": "shelf-topSeller"
@@ -325,7 +325,7 @@
         "tablet": 3,
         "phone": 2
       },
-      "showNavigationArrows": false,
+      "showNavigationArrows": "desktopOnly",
       "infinite": true,
       "fullWidth": false,
       "blockClass": "shelf-topSeller"

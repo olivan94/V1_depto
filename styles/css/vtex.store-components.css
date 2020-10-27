@@ -334,8 +334,62 @@
   width: 513px;
 }
 
+.shippingContainer {
+  display: flex;
+  align-items: flex-start;
+}
 
-@media only screen and (min-width: 640px) and (max-width: 1920px) {
+.shippingContainer :global(.vtex-input) {
+  display: flex;
+}
+
+.shippingContainer :global(.vtex-input__label) {
+  width: auto;
+  font: normal normal normal 14px 'Nunito Sans';
+  margin: 0px;
+  display: flex;
+  align-items: center;
+}
+
+.shippingContainer :global(.vtex-input-prefix__group) {
+  width: 330px;
+  border: none;
+  border-bottom: 1px solid #E4DDEE;
+  border-radius: 0px;
+}
+
+.shippingContainer :global(.vtex-button) {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: #ffffff;
+  border-bottom: 1px solid #E4DDEE;
+  border-radius: 0px;
+}
+
+.shippingContainer :global(.vtex-button__label) {
+  left: -9999px;
+  position: absolute;
+  opacity: 0;
+  width: 0px;
+  height: 0px;
+}
+
+.shippingContainer :global(.vtex-button)::after{
+  content:"OK";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: normal normal bold 12px/5px 'Nunito Sans';
+  color: #000000;
+  opacity: 1;
+}
+
+
+@media only screen and (min-width: 640px) {
   .logoLink {
     margin-left: 0px;
   }
@@ -377,7 +431,7 @@
   }
 }
 
-@media only screen and (min-width: 1030px) and (max-width: 1920px) {
+@media only screen and (min-width: 1030px) {
 
   .searchBarInnerContainer {
     width: 898px;

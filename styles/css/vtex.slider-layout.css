@@ -5,6 +5,28 @@
   background-color: #000000;
 }
 
+.sliderLeftArrow {
+  background: #ffffff;
+  box-shadow: 0px 3px 6px #4F32FE11;
+  height: 58px;
+  width: 58px;
+  border-radius: 29px;
+  top: 121px;
+}
+
+.sliderRightArrow {
+  background: #ffffff;
+  box-shadow: 0px 3px 6px #4F32FE11;
+  height: 58px;
+  width: 58px;
+  border-radius: 29px;
+  top: 121px;
+}
+
+.caretIcon {
+  color: #4f32fe;
+}
+
 .sliderTrackContainer {
   max-width: 1260px;
 }
@@ -74,5 +96,11 @@
 @media only screen and (min-width: 640px) {
   .sliderTrack {
     gap: 20px
+  }
+
+  .sliderLayoutContainer--shelf-topSeller {
+    padding: 0px !important;
+    max-width: 1314px;
+    margin: 0px 18px;
   }
 }

@@ -245,26 +245,33 @@
       "preserveLayoutOnMobile": "true"
     }
   },
+
+  "flex-layout.col#product-description": {
+    "children": [
+      "vtex.product-list:product-name"
+    ],
+    "props": {
+      "blockClass": "nomeProduto"
+    }
+  },
+
   "flex-layout.row#quantity-selector.mobile": {
     "children": ["quantity-selector"],
     "props": {
       "blockClass": "quantityContainer",
-      "marginTop": "5",
       "preventHorizontalStretch": "true"
     }
   },
   "flex-layout.row#unit-price.mobile": {
     "children": ["unit-price"],
     "props": {
-      "blockClass": "unityPrice",
-      "marginTop": "3"
+      "blockClass": "unityPrice"
     }
   },
   "flex-layout.row#price.mobile": {
     "children": ["price#mobile"],
     "props": {
       "blockClass": "priceContainer",
-      "marginTop": "5",
       "preventHorizontalStretch": "true"
     }
   },
