@@ -2,6 +2,12 @@
   font: normal normal 600 12px 'Nunito Sans';
   color: #847B91;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   margin-bottom: 27px
+}
+
+@media only screen and (min-width: 640px) {
+  .product-identifier--productReference {
+    justify-content: flex-start;
+  }
 }

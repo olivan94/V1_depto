@@ -71,12 +71,18 @@
       "flex-layout.row#result"
     ],
     "props": {
+      "blockClass": "searchDesk",
       "pagination": "show-more",
       "preventRouteChange": false,
       "mobileLayout": {
         "mode1": "small",
         "mode2": "normal"
-      }
+      },
+      "hiddenFacets": {
+        "specificationFilters": {
+          "hiddenFilters": [{"name": "Categoria"}, {"name": "Subcategoria"}, {"name": "Voltagem"}, {"name": "Filtrado por:"}, {"name": "Capacidade"}]
+        }
+}
     }
   },
   // "flex-layout.row#searchbread": {
@@ -111,7 +117,8 @@
       "flex-layout.row#searchinfo",
       "flex-layout.row#fetchprevious",
       "flex-layout.row#products",
-      "flex-layout.row#fetchmore"
+      "flex-layout.row#fetchmore",
+      "rich-text#dummie"
     ],
     "props": {
       "width": "grow",
@@ -136,12 +143,14 @@
   },
   "flex-layout.row#fetchprevious": {
     "props": {
+      "blockClass": "fetchPrevious",
       "marginBottom": 3
     },
     "children": ["search-fetch-previous"]
   },
   "flex-layout.row#fetchmore": {
     "props": {
+      "blockClass": "fetchMore",
       "marginTop": 3
     },
     "children": ["search-fetch-more"]
@@ -159,19 +168,27 @@
       "flex-layout.row#productCountMobile",
       "flex-layout.row#fetchprevious",
       "flex-layout.row#contentmobile",
-      "flex-layout.row#fetchmore"
+      "flex-layout.row#fetchmore",
+      "rich-text#dummie"
     ],
     "props": {
+      "blockClass": "layoutMobile",
       "pagination": "show-more",
       "mobileLayout": {
         "mode1": "small",
         "mode2": "normal"
+      },
+      "hiddenFacets": {
+        "specificationFilters": {
+          "hiddenFilters": [{"name": "Categoria"}, {"name": "Subcategoria"}, {"name": "Voltagem"}, {"name": "Filtrado por:"}, {"name": "Capacidade"}]
+        }
       }
     }
   },
   "flex-layout.row#contentmobile": {
     "children": ["search-content"],
     "props": {
+      "blockClass": "contentMobile",
       "preserveLayoutOnMobile": true
     }
   },
@@ -179,10 +196,11 @@
   "flex-layout.row#searchinfomobile": {
     "children": [
       "flex-layout.col#orderByMobile",
-      "flex-layout.col#filterMobile",
-      "flex-layout.col#switcherMobile"
+      "flex-layout.col#filterMobile"
+      // "flex-layout.col#switcherMobile"
     ],
     "props": {
+      "blockClass": "searchInfoMobile",
       "preserveLayoutOnMobile": true,
       "colSizing": "auto",
       "colJustify": "around"
@@ -190,9 +208,15 @@
   },
 
   "flex-layout.col#orderByMobile": {
-    "children": ["order-by.v2"],
+    "children": ["order-by.v2#mobile"],
     "props": {
       "blockClass": "orderByMobileCol"
+    }
+  },
+
+  "order-by.v2#mobile": {
+    "props": {
+      "showOrderTitle": false
     }
   },
 
@@ -209,12 +233,12 @@
       "blockClass": "filterMobileCol"
     }
   },
-  "flex-layout.col#switcherMobile": {
-    "children": ["search-layout-switcher"],
-    "props": {
-      "blockClass": "switcherMobileCol"
-    }
-  },
+  // "flex-layout.col#switcherMobile": {
+  //   "children": ["search-layout-switcher"],
+  //   "props": {
+  //     "blockClass": "switcherMobileCol"
+  //   }
+  // },
   "search-not-found-layout": {
     "children": ["flex-layout.row#notfound"]
   },

@@ -1,6 +1,7 @@
 {
   "store.product": {
     "children": [
+      "breadcrumb",
       "flex-layout.row#product-main",
       "flex-layout.row#description",
       "shelf.relatedProducts"
@@ -89,6 +90,12 @@
       // "share#default"
     ]
   },
+
+  // "product-installments": {
+  //   "props": {
+  //     "blockClass": "instalmentos"
+  //   }
+  // },
 
   "flex-layout.row#product-name": {
     "props": {

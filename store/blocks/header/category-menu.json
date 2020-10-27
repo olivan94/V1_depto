@@ -45,6 +45,7 @@
   },
   "vtex.menu@2.x:menu#category-todos": {
     "props": {
+      "blockClass": "category-todos",
       "orientation": "vertical"
     },
     "children": [
@@ -62,6 +63,7 @@
 
   "menu-item#category-todos-eletroHome": {
     "props": {
+      "blockClass": "category-todos-eletroHome",
       "id": "menu-item-category-todos-eletroHome",
       "type": "custom",
       "iconId": null,
@@ -89,6 +91,7 @@
   },
   "vtex.menu@2.x:menu#todos-eletroHome": {
     "props": {
+      "blockClass": "todos-eletroHome",
       "orientation": "vertical"
     },
     "children": [

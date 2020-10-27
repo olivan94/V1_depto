@@ -97,15 +97,31 @@
     width: auto;
   }
 
+  .submenuWrapper--isOpen {
+    padding: 0px;
+    margin: 0px;
+  }
+
   .submenuWrapper--category-todos--isOpen {
-    top: 44px;
-    left: -225px;
+    top: 42px;
+    left: -208px;
   }
 
   .submenuWrapper--category-todos-eletroHome--isOpen {
-    top: -47px;
-    left: 230px;
+    top: -35px;
+    left: 255px;
     background: #F6F5F8;
+  }
+
+  .menuItem--category-todos-eletroHome {
+    margin-right: 45px;
+    border-top: 2px solid  #4F32FE;
+  }
+
+  .menuContainer--todos-eletroHome {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: fit-content !important;
   }
 
   .submenuWrapper--isOpen :global(.vtex-menu-2-x-menuContainer) {
@@ -117,14 +133,19 @@
     margin: 0px;
   }
 
+  .submenuWrapper--isOpen :global(.vtex-menu-2-x-styledLinkContainer):hover {
+    background-color: #F6F5F8;
+  }
+
   .submenuWrapper--isOpen :global(.vtex-menu-2-x-styledLinkContent) {
     font: normal normal normal 14px/35px 'Nunito Sans';
     padding-left: 41px;
+    color: #000000;
+    margin-right: 41px;
   }
 
   .submenuWrapper--isOpen :global(.vtex-menu-2-x-styledLinkContent):hover {
     font-weight: 700;
     color: #4F32FE;
-    background-color: #F6F5F8;
   }
 }

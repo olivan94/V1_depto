@@ -157,6 +157,7 @@
 
   "footer-layout.mobile": {
     "children": [
+      "newsletter",
       "flex-layout.row#footer-mobile-about",
       "flex-layout.row#footer-mobile-atendimento",
       "flex-layout.row#footer-mobile-ajuda",

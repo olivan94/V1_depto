@@ -18,6 +18,8 @@
   color: #000000;
   margin-bottom: 1rem;
   font: normal normal normal 12px 'Nunito Sans';
+  display: flex;
+  justify-content: center;
 }
 
 .savings {
@@ -55,4 +57,12 @@
 .installments--summary {
   margin-bottom: 2rem;
   font-size: 0.875rem;
+}
+
+@media only screen and (min-width: 640px) {
+  .installments {
+    color: #000000;
+    margin-bottom: 1rem;
+    font: normal normal normal 12px 'Nunito Sans';
+  }
 }
