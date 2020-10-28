@@ -1,11 +1,18 @@
 .profileIcon {
-    width: 19px;
-    height: 23px;
+  width: 19px;
+  height: 23px;
 }
 
 .container :global(.vtex-button__label) {
-    padding: 0px;
-    width: 20px;
-    height: 24px;
-    margin-right: 20px;
+  padding: 0px;
+  width: 20px;
+  height: 24px;
+  margin-right: 20px;
+}
+
+.arrowUp {
+  transform: none;
+  top: 6px;
+  background-color: #4F32FE;
+  margin-right: 22px;
 }

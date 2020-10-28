@@ -1,0 +1,129 @@
+{
+ 
+
+  // -----------------------------------aqui começa o show------------------------------ 
+
+  
+  "vtex.menu@2.x:menu#footer": {
+    "props": {
+      "blockClass": "menuFooterAbout",
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "menu-item#footer-about",
+      "menu-item#footer-atendimento",
+      "menu-item#footer-ajuda"
+    ]
+  },
+  "menu-item#footer-about": {
+    "props": {
+      "blockClass": "footer-about",
+      "id": "menu-item-footer-about",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Sobre",
+        "text": "Sobre"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#footer-about"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#footer-about": {
+    "props": {
+      "blockClass": "footer-about",
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#footer-about"
+    ]
+  },
+
+
+  "menu-item#footer-atendimento": {
+    "props": {
+      "blockClass": "footer-atendimento",
+      "id": "menu-item-footer-atendimento",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Sobre",
+        "text": "Sobre"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#footer-atendimento"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#footer-atendimento": {
+    "props": {
+      "blockClass": "footer-atendimento",
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#footer-atendimento"
+    ]
+  },
+
+
+  "menu-item#footer-ajuda": {
+    "props": {
+      "blockClass": "footer-ajuda",
+      "id": "menu-item-footer-ajuda",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Sobre",
+        "text": "Sobre"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#footer-ajuda"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#footer-ajuda": {
+    "props": {
+      "blockClass": "footer-ajuda",
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#footer-ajuda"
+    ]
+  },
+
+// ----------------------drawer trigger, botão magical---------------------------------
+
+
+  "drawer#aboutUs": {
+    "children": [
+      "vtex.menu@2.x:menu#footer"
+    ],
+    "blocks": ["drawer-trigger#aboutUs"]
+  },
+  
+  "drawer-trigger#aboutUs": {
+    "children": ["rich-text#open-drawer"]
+  },
+  
+  "rich-text#open-drawer": {
+    "props": {
+      "text": "**Selecione o menu**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "menuAbout"
+    }
+  }
+}

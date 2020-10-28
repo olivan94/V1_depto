@@ -149,6 +149,16 @@
   margin-bottom: 16px;
 }
 
+.wrapper--aboutUsText {
+  font: normal normal normal 14px/25px 'Nunito Sans';
+  letter-spacing: 0.7px;
+  color: #000000;
+}
+
+.wrapper--aboutUsTitle {
+  font: normal normal bold 20px/31px 'Nunito Sans';
+}
+
 @media only screen and (min-width: 640px) {
   .container--question .strong {
     font-size: 40px;
@@ -183,6 +193,7 @@
     justify-content: center;
     align-items: center;
   }
+
 }
 
 @media only screen and (min-width: 1020px) {

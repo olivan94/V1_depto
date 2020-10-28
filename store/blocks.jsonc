@@ -120,5 +120,11 @@
         "titleText": "Quem viu, viu também"
       }
     }
+  },
+
+  "product-description": {
+    "props":{
+      "collapseContent": false
+    }
   }
 }

@@ -6,6 +6,17 @@
   font: normal normal bold 24px/12px Nunito Sans;
   color: #000;
   padding: 0px;
-  margin-top: 100px;
+  margin-top: 50px;
   margin-bottom: 27px;
+}
+
+.sliderContainer--relacionados :global(.vtex-slider-0-x-dotsContainer) {
+  padding: 0px;
+  bottom: 0px;
+}
+
+@media only screen and (min-width: 640px) {
+  .title--relacionados {
+    margin-top: 100px;
+  }
 }

@@ -40,4 +40,14 @@
 
 .quantitySelectorStepper :global(.vtex-numeric-stepper__minus-button__text) {
   font: normal normal normal 14px 'Nunito Sans';
+} 
+
+@media only screen and (max-width: 640px) {
+  .quantitySelectorTitle {
+    text-align: center;
+  }
+
+  .quantitySelectorStepper :global(.vtex-numeric-stepper-container) {
+    justify-content: center;
+  } 
 }
