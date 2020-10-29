@@ -159,6 +159,28 @@
   font: normal normal bold 20px/31px 'Nunito Sans';
 }
 
+.paragraph--aboutUsText {
+  margin: 24px 0px;
+}
+
+.paragraph--aboutUsTitle {
+  margin: 15px 0px;
+}
+
+.paragraph--aboutUsText:first-child {
+  margin-top: 0px;
+}
+
+.paragraph--menuAbout {
+  font: normal normal bold 14px/31px 'Nunito Sans';
+  margin: 10px 0px;
+}
+
+.paragraph--menuTitleAbout {
+  margin-left: 30px;
+  font: normal normal bold 20px/30px 'Nunito Sans';
+}
+
 @media only screen and (min-width: 640px) {
   .container--question .strong {
     font-size: 40px;

@@ -55,6 +55,24 @@
   color: #000000;
 }
 
+.menuContainer--menuFooterAbout :global(.vtex-menu-2-x-styledLinkContainer) {
+  margin: 20px 0px;
+  padding: 0px;
+  margin-left: 30px;
+}
+
+.menuContainer--menuFooterAbout .menuItem {
+  border-bottom: 1px solid #E4DDEE;
+}
+
+.menuContainerNav--menuFooterAbout {
+  width: 351px
+}
+
+.menuContainer--menuFooterAbout :global(.vtex-menu-2-x-styledLinkContent) {
+  font: normal normal normal 16px 'Nunito Sans';
+}
+
 @media only screen and (min-width: 640px){
 	.styledLinkContainer--menuItemFooter {
     padding: 0px;

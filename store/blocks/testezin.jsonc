@@ -7,7 +7,8 @@
   "vtex.menu@2.x:menu#footer": {
     "props": {
       "blockClass": "menuFooterAbout",
-      "experimentalOptimizeRendering": true
+      "experimentalOptimizeRendering": true,
+      "orientation": "vertical"
     },
     "children": [
       "menu-item#footer-about",
@@ -56,8 +57,8 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "Sobre",
-        "text": "Sobre"
+        "tagTitle": "Atendimento",
+        "text": "Atendimento"
       }
     },
     "blocks": [
@@ -86,8 +87,8 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "Sobre",
-        "text": "Sobre"
+        "tagTitle": "Ajuda",
+        "text": "Ajuda"
       }
     },
     "blocks": [
@@ -109,13 +110,27 @@
 
   "drawer#aboutUs": {
     "children": [
+      "rich-text#menuDrawer",
       "vtex.menu@2.x:menu#footer"
     ],
-    "blocks": ["drawer-trigger#aboutUs"]
+    "blocks": ["drawer-trigger#aboutUs"],
+    "props": {
+      "slideDirection": "rightToLeft",
+      "blockClass": "aboutUs"
+    }
   },
   
   "drawer-trigger#aboutUs": {
     "children": ["rich-text#open-drawer"]
+  },
+
+  "rich-text#menuDrawer": {
+    "props": {
+      "text": "**Menu**",
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "blockClass": "menuTitleAbout"
+    }
   },
   
   "rich-text#open-drawer": {

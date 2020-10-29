@@ -13,6 +13,20 @@
   color: #4F32FE;
 }
 
+.drawerTriggerContainer {
+  border-bottom: 1px solid #E4DDEE;
+}
+
+.opened--aboutUs {
+  background-color: #F6F5F8;
+}
+
+.childrenContainer--aboutUs {
+  flex-direction: column;
+}
+
+
+
 @media only screen and (min-width: 640px) {
   .openIconContainer {
     color: #000000;
