@@ -180,7 +180,9 @@
   "login": {
     "props": {
       "showIconProfile": true,
-      "hideIconLabel": true
+      "hideIconLabel": true,
+      "optionsTitle": "Escolha como entrar",
+      "accessCodeOptionTitle": "Código de acesso por e-mail"
     }
   },
 

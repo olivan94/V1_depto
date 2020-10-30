@@ -34,6 +34,11 @@
   "flex-layout.col#minicart-footer": {
     "children": ["minicart-summary", "minicart-checkout-button"]
   },
+  "minicart-checkout-button": {
+    "props": {
+      "text": "**Finalizar compra**"
+    }
+  },
   "minicart-product-list": {
     "blocks": ["product-list#minicart"]
   },

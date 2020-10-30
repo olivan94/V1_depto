@@ -9,8 +9,62 @@
 
   "responsive-layout.desktop#aboutUs": {
     "children": [
-      "flex-layout.row#about-us"
+      "image#pubg",
+      "flex-layout.row#deskAbout-us"
     ]
+  },
+
+  "image#pubg": {
+    "props": {
+      "src": "assets/pubgVrau.png",
+      "maxWidth": "1920px",
+      "blockClass": "imgPubg"
+    }
+  },
+
+  "flex-layout.row#deskAbout-us": {
+    "children": [
+      "flex-layout.col#menus",
+      "flex-layout.col#text-about-us"
+    ],
+    "props": {
+      "blockClass": "deskAboutUs",
+      "colSizing": "auto"
+    }
+  },
+
+  "flex-layout.col#menus": {
+    "children": [
+      "rich-text#sobre",
+      "vtex.menu@2.x:menu#footer-about",
+      "rich-text#atendimento",
+      "vtex.menu@2.x:menu#footer-atendimento",
+      "rich-text#ajuda",
+      "vtex.menu@2.x:menu#footer-ajuda"
+    ],
+    "props": {
+      "blockClass": "colMenusAbout",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#sobre":{
+    "props": {
+      "text": "**Sobre**",
+      "blockClass": "menuTitleDeskAbout"
+    }
+  },
+  "rich-text#atendimento":{
+    "props": {
+      "text": "**Atendimento**",
+      "blockClass": "menuTitleDeskAbout"
+    }
+  },
+  "rich-text#ajuda":{
+    "props": {
+      "text": "**Ajuda**",
+      "blockClass": "menuTitleDeskAbout"
+    }
   },
 
   "responsive-layout.phone#aboutUs": {
@@ -22,7 +76,6 @@
   
   "flex-layout.row#about-us": {
     "children": [
-      // "image#mobile-phone",
       "flex-layout.col#text-about-us"
     ],
     "props": {
@@ -32,11 +85,12 @@
 
   "flex-layout.col#text-about-us": {
     "children": [
+      // "breadcrumb",
       "rich-text#title-about-us",
       "rich-text#about-us"
     ],
     "props": {
-      "blockclass": "textColumn",
+      "blockClass": "textColumn",
       "preventVerticalStretch": true
     }
   },
@@ -49,15 +103,6 @@
       "blockClass": "aboutUsTitle"
     }
   },
-
-  // "image#mobile-phone": {
-  //   "props": {
-  //     "src": "https://storecomponents.vteximg.com.br/arquivos/mobile-phone.png",
-  //     "maxHeight": "",
-  //     "maxWidth": "",
-  //     "blockClass": "storePrint"
-  //   }
-  // },
 
   "rich-text#about-us": {
     "props": {

@@ -173,7 +173,7 @@
   display: flex;
   justify-content: flex-end;
   padding-right: 21px;
-  border-right: 1px solid #847B91;
+  border-right: 1px solid #E4DDEE;
 }
 
 .imageElementLink--mobileOsCara {
@@ -411,6 +411,10 @@
   font: normal normal bold 12px/5px 'Nunito Sans';
   color: #000000;
   opacity: 1;
+}
+
+.imageElement--imgPubg {
+  width: 100%
 }
 
 @media only screen and (min-width: 640px) {

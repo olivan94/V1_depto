@@ -3,6 +3,17 @@
   height: 23px;
 }
 
+.box {
+  right: -28px !important;
+  width: 288px;
+  height: 315px;
+}
+
+.formTitle {
+  font: normal normal normal 14px 'Nunito Sans';
+  color: #17100D;
+}
+
 .container :global(.vtex-button__label) {
   padding: 0px;
   width: 20px;
@@ -10,9 +21,74 @@
   margin-right: 20px;
 }
 
+.container .relative:focus {
+  border: none;
+}
+
+.container :global(.vtex-button):link {
+  border-color: #ffffff;
+  background-color: #ffffff;  
+}
+
+.container :global(.vtex-button):visited {
+  border-color: #ffffff;
+  background-color: #ffffff;  
+}
+
+.container :global(.vtex-button):hover {
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+
+.container :global(.vtex-button):active {
+  border-color: #ffffff;
+  background-color: #ffffff;  
+}
+
 .arrowUp {
   transform: none;
   top: 6px;
   background-color: #4F32FE;
-  margin-right: 22px;
+  margin-right: 0px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.optionsListItem {
+  margin-bottom: 10px;
+}
+
+.optionsListItem :global(.vtex-button) {
+  border-radius: 26px;
+  height: 51px;
+  width: 252px;
+  background-color: #F6F5F8;
+  border-color: transparent;
+}
+
+.accessCodeOptionBtn :global(.vtex-button) {
+  border: 1px solid #4F32FE;
+  background-color: #ffffff;
+}
+
+.emailPasswordOptionBtn :global(.vtex-button) {
+  border: 1px solid #4F32FE;
+  background-color: #ffffff;
+}
+
+.optionsListItem :global(.vtex-button__label) {
+  font: normal normal bold 14px 'Nunito Sans';
+  text-transform: none;
+  color: #000000;
+}
+
+.oauthLabel {
+  font: normal normal bold 14px 'Nunito Sans';
+  text-transform: none;
+  color: #000000;
+  margin: 0px 8px;
 }

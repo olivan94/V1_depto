@@ -318,6 +318,34 @@
   padding: 0px 24px;
 }
 
+.flexRow--deskAboutUs :global(.vtex-store-components-3-x-container) {
+  max-width: 1260px;
+  padding: 0px;
+}
+
+.flexCol--colMenusAbout {
+  width: 244px !important;
+}
+
+.flexCol--colMenusAbout :global(.vtex-menu-2-x-styledLinkContent--menuItemFooter) {
+  font: normal normal normal 14px/31px 'Nunito Sans';
+  color: #000000;
+}
+
+.flexCol--colMenusAbout :global(.vtex-menu-2-x-menuContainerNav--menuFooter) {
+  padding-bottom: 21px;
+  border-bottom: 1px solid #E4DDEE;
+}
+
+.flexCol--colMenusAbout .flexColChild--colMenusAbout:last-child :global(.vtex-menu-2-x-menuContainerNav--menuFooter){
+  border: none;
+}
+
+.flexRowContent--deskAboutUs .stretchChildrenWidth:last-child {
+  margin-left: 80px;
+}
+
+
 @media only screen and (min-width: 640px) {
   .flexRow--r2desktop {
     display: flex;

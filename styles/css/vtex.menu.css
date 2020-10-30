@@ -65,12 +65,20 @@
   border-bottom: 1px solid #E4DDEE;
 }
 
+.menuContainer--menuFooterAbout .menuItem:last-child {
+  border: none;
+}
+
 .menuContainerNav--menuFooterAbout {
-  width: 351px
+  width: 351px;
 }
 
 .menuContainer--menuFooterAbout :global(.vtex-menu-2-x-styledLinkContent) {
   font: normal normal normal 16px 'Nunito Sans';
+}
+
+.accordionIcon {
+  opacity: 0;
 }
 
 @media only screen and (min-width: 640px){
@@ -100,6 +108,16 @@
     border: none;
     padding: 0px;
     height: auto;
+    border-bottom: 2px solid transparent;
+    max-height: 44px;
+  }
+
+  .menuItem--menuItemHeader:last-child {
+    border-bottom: 2px solid transparent;
+  }
+
+  .menuItem--menuItemHeader:hover {
+    border-color: #4F32FE;
   }
 
   .menuItem--menuItemHeader:first-child {
@@ -115,13 +133,19 @@
     width: auto;
   }
 
+  .menuContainer--category-todos {
+    height: 340px;
+    justify-content: flex-start;
+  }
+
   .submenuWrapper--isOpen {
     padding: 0px;
     margin: 0px;
+    border: none;
   }
 
   .submenuWrapper--category-todos--isOpen {
-    top: 42px;
+    top: 44px;
     left: -208px;
   }
 
@@ -131,14 +155,41 @@
     background: #F6F5F8;
   }
 
-  .menuItem--category-todos-eletroHome {
+  .submenuWrapper--subMenu-category-eletronicos--isOpen {
+    top: 23px;
+    left: -74px;
+  }
+
+  /* .menuItem--category-todos-eletroHome {
     margin-right: 45px;
     border-top: 2px solid  #4F32FE;
+  } */
+
+  .menuContainerNav--todos-eletroHome {
+    height: 340px;
+    width: 510px;
+    align-items: flex-start;
   }
 
   .menuContainer--todos-eletroHome {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    width: fit-content !important;
+  }
+
+  .styledLinkContent--menuPrimario {
+    padding-right: 41px;
+  }
+
+  .menuContainer--todos-eletroHome .styledLinkContent:hover {
+    font-weight: normal;
+    text-decoration: underline;
+    color: #4F32FE;
+  }
+
+  .menuContainer--menuPrimarioEletro {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     width: fit-content !important;
   }
 
@@ -151,7 +202,7 @@
     margin: 0px;
   }
 
-  .submenuWrapper--isOpen :global(.vtex-menu-2-x-styledLinkContainer):hover {
+  .styledLinkContainer--menuPrimario:hover {
     background-color: #F6F5F8;
   }
 
@@ -159,10 +210,9 @@
     font: normal normal normal 14px/35px 'Nunito Sans';
     padding-left: 41px;
     color: #000000;
-    margin-right: 41px;
   }
 
-  .submenuWrapper--isOpen :global(.vtex-menu-2-x-styledLinkContent):hover {
+  .styledLinkContent--menuPrimario:hover {
     font-weight: 700;
     color: #4F32FE;
   }

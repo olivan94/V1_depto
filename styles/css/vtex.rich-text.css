@@ -157,6 +157,7 @@
 
 .wrapper--aboutUsTitle {
   font: normal normal bold 20px/31px 'Nunito Sans';
+  color: #000000;
 }
 
 .paragraph--aboutUsText {
@@ -179,6 +180,13 @@
 .paragraph--menuTitleAbout {
   margin-left: 30px;
   font: normal normal bold 20px/30px 'Nunito Sans';
+}
+
+.paragraph--menuTitleDeskAbout {
+  font: normal normal bold 16px/31px 'Nunito Sans';
+  color: #000000;
+  margin-bottom: 10px;
+  margin-top: 20px;
 }
 
 @media only screen and (min-width: 640px) {
@@ -214,6 +222,24 @@
   .container--footer {
     justify-content: center;
     align-items: center;
+  }
+
+  .container--aboutUsTitle {
+    justify-content: flex-start;
+  }
+
+  .wrapper--aboutUsText {
+    font: normal normal normal 14px/30px 'Nunito Sans';
+    letter-spacing: 0px;
+  }
+
+  .paragraph--aboutUsText {
+    text-align: start;
+  }
+
+  .wrapper--aboutUsTitle {
+    font: normal normal bold 30px/31px 'Nunito Sans';
+    color: #000000;
   }
 
 }

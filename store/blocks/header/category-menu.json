@@ -63,7 +63,7 @@
 
   "menu-item#category-todos-eletroHome": {
     "props": {
-      "blockClass": "category-todos-eletroHome",
+      "blockClass": "menuPrimario",
       "id": "menu-item-category-todos-eletroHome",
       "type": "custom",
       "iconId": null,
@@ -342,6 +342,7 @@
 
   "menu-item#category-todos-gamesPcgamer": {
     "props": {
+      "blockClass": "menuPrimario",
       "id": "menu-item-category-todos-gamesPcgamer",
       "type": "custom",
       "iconId": null,
@@ -357,6 +358,7 @@
   },
   "menu-item#category-todos-celulares": {
     "props": {
+      "blockClass": "menuPrimario",
       "id": "menu-item-category-todos-celulares",
       "type": "custom",
       "iconId": null,
@@ -372,6 +374,7 @@
   },
   "menu-item#category-todos-midia": {
     "props": {
+      "blockClass": "menuPrimario",
       "id": "menu-item-category-todos-midia",
       "type": "custom",
       "iconId": null,
@@ -387,6 +390,7 @@
   },
   "menu-item#category-todos-informatica": {
     "props": {
+      "blockClass": "menuPrimario",
       "id": "menu-item-category-todos-informatica",
       "type": "custom",
       "iconId": null,
@@ -402,6 +406,7 @@
   },
   "menu-item#category-todos-moda": {
     "props": {
+      "blockClass": "menuPrimario",
       "id": "menu-item-category-todos-moda",
       "type": "custom",
       "iconId": null,
@@ -417,6 +422,7 @@
   },
   "menu-item#category-todos-esporte": {
     "props": {
+      "blockClass": "menuPrimario",
       "id": "menu-item-category-todos-esporte",
       "type": "custom",
       "iconId": null,
@@ -432,6 +438,7 @@
   },
   "menu-item#category-todos-moveis": {
     "props": {
+      "blockClass": "menuPrimario",
       "id": "menu-item-category-todos-moveis",
       "type": "custom",
       "iconId": null,
@@ -447,6 +454,7 @@
   },
   "menu-item#category-todos-beleza": {
     "props": {
+      "blockClass": "menuPrimario",
       "id": "menu-item-category-todos-beleza",
       "type": "custom",
       "iconId": null,
@@ -482,6 +490,7 @@
   },
   "vtex.menu@2.x:submenu#category-eletronicos": {
     "props": {
+      "blockClass": "subMenu-category-eletronicos",
       "width": "auto"
     },
     "children": [
@@ -490,6 +499,7 @@
   },
   "vtex.menu@2.x:menu#category-eletronicos": {
     "props": {
+      "blockClass": "menuPrimarioEletro",
       "orientation": "vertical"
     },
     "children": [
@@ -518,6 +528,7 @@
   },
   "menu-item#category-eletronicos-notebooks": {
     "props": {
+      "blockClass": "menuPrimario",
       "id": "menu-item-category-eletronicos-notebooks",
       "type": "custom",
       "iconId": null,
@@ -533,6 +544,7 @@
   },
   "menu-item#category-eletronicos-notebooks2": {
     "props": {
+      "blockClass": "menuPrimario",
       "id": "menu-item-category-eletronicos-notebooks2",
       "type": "custom",
       "iconId": null,
@@ -548,6 +560,7 @@
   },
   "menu-item#category-eletronicos-noteGamer": {
     "props": {
+      "blockClass": "menuPrimario",
       "id": "menu-item-category-eletronicos-noteGamer",
       "type": "custom",
       "iconId": null,
@@ -563,6 +576,7 @@
   },
   "menu-item#category-eletronicos-desk": {
     "props": {
+      "blockClass": "menuPrimario",
       "id": "menu-item-category-eletronicos-desk",
       "type": "custom",
       "iconId": null,
@@ -578,6 +592,7 @@
   },
   "menu-item#category-eletronicos-deskGamer": {
     "props": {
+      "blockClass": "menuPrimario",
       "id": "menu-item-category-eletronicos-deskGamer",
       "type": "custom",
       "iconId": null,
@@ -593,6 +608,7 @@
   },
   "menu-item#category-eletronicos-allInOne": {
     "props": {
+      "blockClass": "menuPrimario",
       "id": "menu-item-category-eletronicos-allInOne",
       "type": "custom",
       "iconId": null,
@@ -608,6 +624,7 @@
   },
   "menu-item#category-eletronicos-apple": {
     "props": {
+      "blockClass": "menuPrimario",
       "id": "menu-item-category-eletronicos-apple",
       "type": "custom",
       "iconId": null,
@@ -623,6 +640,7 @@
   },
   "menu-item#category-eletronicos-smartHome": {
     "props": {
+      "blockClass": "menuPrimario",
       "id": "menu-item-category-eletronicos-smartHome",
       "type": "custom",
       "iconId": null,
@@ -638,6 +656,7 @@
   },
   "menu-item#category-eletronicos-multifunc": {
     "props": {
+      "blockClass": "menuPrimario",
       "id": "menu-item-category-eletronicos-multifunc",
       "type": "custom",
       "iconId": null,
@@ -653,6 +672,7 @@
   },
   "menu-item#category-eletronicos-monitores": {
     "props": {
+      "blockClass": "menuPrimario",
       "id": "menu-item-category-eletronicos-monitores",
       "type": "custom",
       "iconId": null,
@@ -668,6 +688,7 @@
   },
   "menu-item#category-eletronicos-hds": {
     "props": {
+      "blockClass": "menuPrimario",
       "id": "menu-item-category-eletronicos-hds",
       "type": "custom",
       "iconId": null,
@@ -683,6 +704,7 @@
   },
   "menu-item#category-eletronicos-acessoriosPerif": {
     "props": {
+      "blockClass": "menuPrimario",
       "id": "menu-item-category-eletronicos-acessoriosPerif",
       "type": "custom",
       "iconId": null,
@@ -698,6 +720,7 @@
   },
   "menu-item#category-eletronicos-impressoras": {
     "props": {
+      "blockClass": "menuPrimario",
       "id": "menu-item-category-eletronicos-impressoras",
       "type": "custom",
       "iconId": null,
@@ -713,6 +736,7 @@
   },
   "menu-item#category-eletronicos-componentsPecas": {
     "props": {
+      "blockClass": "menuPrimario",
       "id": "menu-item-category-eletronicos-componentsPecas",
       "type": "custom",
       "iconId": null,
@@ -728,6 +752,7 @@
   },
   "menu-item#category-eletronicos-cartuchos": {
     "props": {
+      "blockClass": "menuPrimario",
       "id": "menu-item-category-eletronicos-cartuchos",
       "type": "custom",
       "iconId": null,
@@ -743,6 +768,7 @@
   },
   "menu-item#category-eletronicos-equipRedeWireless": {
     "props": {
+      "blockClass": "menuPrimario",
       "id": "menu-item-category-eletronicos-equipRedeWireless",
       "type": "custom",
       "iconId": null,
@@ -758,6 +784,7 @@
   },
   "menu-item#category-eletronicos-noteAcessorios": {
     "props": {
+      "blockClass": "menuPrimario",
       "id": "menu-item-category-eletronicos-noteAcessorios",
       "type": "custom",
       "iconId": null,
@@ -773,6 +800,7 @@
   },
   "menu-item#category-eletronicos-projetores": {
     "props": {
+      "blockClass": "menuPrimario",
       "id": "menu-item-category-eletronicos-projetores",
       "type": "custom",
       "iconId": null,
@@ -788,6 +816,7 @@
   },
   "menu-item#category-eletronicos-teclado": {
     "props": {
+      "blockClass": "menuPrimario",
       "id": "menu-item-category-eletronicos-teclado",
       "type": "custom",
       "iconId": null,
@@ -803,6 +832,7 @@
   },
   "menu-item#category-eletronicos-mouse": {
     "props": {
+      "blockClass": "menuPrimario",
       "id": "menu-item-category-eletronicos-mouse",
       "type": "custom",
       "iconId": null,
@@ -818,6 +848,7 @@
   },
   "menu-item#category-eletronicos-usados": {
     "props": {
+      "blockClass": "menuPrimario",
       "id": "menu-item-category-eletronicos-usados",
       "type": "custom",
       "iconId": null,
