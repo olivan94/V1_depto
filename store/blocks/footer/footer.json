@@ -329,7 +329,10 @@
   "image#avanti": {
     "props": {
       "src": "assets/avanti1.png",
-      "link": "https://penseavanti.com.br",
+      "link": {
+        "openNewTab": true,
+        "url": "https://penseavanti.com.br/"
+      },
       "blockClass": "mobileOsCaraAvanti"
     }
   },
@@ -337,7 +340,10 @@
   "image#vtexio": {
     "props": {
       "src": "assets/vtex.png",
-      "link": "https://vtex.io",
+      "link": {
+        "openNewTab": true,
+        "url": "https://vtex.io/"
+      },
       "blockClass": "mobileOsCara"
     }
   }
