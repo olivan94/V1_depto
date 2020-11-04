@@ -157,7 +157,10 @@
 
 
   "flex-layout.row#shelf-topSeller": {
-    "children": ["list-context.product-list#topSeller"]
+    "children": ["list-context.product-list#topSeller"],
+    "props": {
+      "blockClass": "shelf-topSeller"
+    }
   },
   "list-context.product-list#topSeller": {
     "blocks": ["product-summary.shelf"],
@@ -273,7 +276,10 @@
   },  
 
   "flex-layout.row#lastItems": {
-    "children": ["list-context.product-list#lastItems"]
+    "children": ["list-context.product-list#lastItems"],
+    "props": {
+      "blockClass": "shelf-topSeller"
+    }
   },
   "list-context.product-list#lastItems": {
     "blocks": ["product-summary.shelf"],
@@ -306,7 +312,10 @@
   },  
 
   "flex-layout.row#also": {
-    "children": ["list-context.product-list#also"]
+    "children": ["list-context.product-list#also"],
+    "props": {
+      "blockClass": "shelf-topSeller"
+    }
   },
   "list-context.product-list#also": {
     "blocks": ["product-summary.shelf"],

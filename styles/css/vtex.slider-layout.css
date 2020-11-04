@@ -12,6 +12,7 @@
   width: 58px;
   border-radius: 29px;
   top: 121px;
+  left: -1px;
 }
 
 .sliderRightArrow {
@@ -21,6 +22,7 @@
   width: 58px;
   border-radius: 29px;
   top: 121px;
+  right: 4px;
 }
 
 .caretIcon {
@@ -91,6 +93,10 @@
 
 .sliderLayoutContainer--shelf-topSeller {
   padding: 0 18px !important;
+}
+
+.sliderTrack--shelf-topSeller {
+  gap: 20px;
 }
 
 @media only screen and (min-width: 640px) {

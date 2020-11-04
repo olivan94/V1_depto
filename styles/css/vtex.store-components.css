@@ -316,15 +316,32 @@
   width: auto !important;
 }
 
+.figure {
+  margin: 0;
+  height: 86.4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F6F5F8;
+}
+
 .thumbImg {
-  max-width: 86.4px;
+  max-height: 67px;
+  width: auto;
+  mix-blend-mode: multiply;
+}
+
+.carouselContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .carouselGaleryThumbs {
   max-width: 86.4px;
 }
 
-.productImagesThumbActive {
+.productImagesThumb {
   margin-bottom: 22.6px;
 }
 
@@ -356,7 +373,7 @@
 .carouselGaleryCursor {
   padding: 0px;
   margin: 0px;
-  width: 513px;
+  width: 374px;
 }
 
 .shippingContainer {
@@ -368,12 +385,23 @@
   display: flex;
 }
 
+.shippingContainer :global(.vtex-input)::before {
+  content: "Calcule a entrega:";
+  white-space: pre-wrap;
+  text-align: center;
+  font: normal normal bold 14px 'Nunito Sans';
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
 .shippingContainer :global(.vtex-input__label) {
-  width: auto;
+  /* width: auto;
   font: normal normal normal 14px 'Nunito Sans';
   margin: 0px;
   display: flex;
-  align-items: center;
+  align-items: center; */
+  display: none;
 }
 
 .shippingContainer :global(.vtex-input-prefix__group) {
@@ -396,11 +424,7 @@
 }
 
 .shippingContainer :global(.vtex-button__label) {
-  left: -9999px;
-  position: absolute;
-  opacity: 0;
-  width: 0px;
-  height: 0px;
+  display: none;
 }
 
 .shippingContainer :global(.vtex-button)::after{
@@ -415,6 +439,20 @@
 
 .imageElement--imgPubg {
   width: 100%
+}
+
+.productImagesGallerySlide {
+  width: 374px;
+  height: 374px;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F6F5F8;
+}
+
+.productImage {
+  mix-blend-mode: multiply;
 }
 
 @media only screen and (min-width: 640px) {
@@ -470,6 +508,10 @@
     margin-top: 50px;
   }
 
+  .carouselGaleryCursor {
+    width: 513px;
+  }
+
 }
 
 @media only screen and (min-width: 1030px) {
@@ -501,5 +543,15 @@
 
   .searchBarIcon {
     color: #4F32FE;
+  }
+
+  .productImagesGallerySlide {
+    width: 513px;
+    height: 513px;
+  }
+
+  .carouselContainer {
+    justify-content: flex-end;
+    max-width: 620px;
   }
 }

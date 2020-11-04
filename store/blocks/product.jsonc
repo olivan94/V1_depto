@@ -59,10 +59,13 @@
     "props": {
       "aspectRatio": {
         "desktop": "1:1",
-        "phone": "16:9"
+        "phone": "1:1"
       },
       "displayThumbnailsArrows": false,
-      "maxHeight": 513,
+      "maxHeight": {
+        "desktop": 403,
+        "phone": 293
+      },
       "showNavigationArrows": false,
       "showPaginationDots": false
     }

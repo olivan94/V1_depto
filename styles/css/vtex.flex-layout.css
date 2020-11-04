@@ -257,13 +257,20 @@
   margin-top: 20px;
 }
 
+.flexRow--productMain :global(.vtex-store-components-3-x-container) {
+  max-width: 100%;
+  padding: 0px;
+  margin: 0px 20px;
+}
+
 .flexRowContent--productMain {
   display: flex;
   flex-direction: column;
 }
 
 .flexCol--productRightCol {
-  margin: 0px
+  margin: 0px;
+  max-width: 374px;
 }
 
 .flexRowContent--sellingPrice {
@@ -272,8 +279,8 @@
 }
 
 .flexRowContent--buyButton {
-  margin: 30px 0px;
-  padding: 0px 12px;
+  padding: 0px;
+  margin: 20px 0px;
 }
 
 .flexRowContent--buyButton :global(.vtex-button) {
@@ -345,6 +352,14 @@
   margin-left: 80px;
 }
 
+.flexRow--shelf-topSeller :global(.vtex-store-components-3-x-container) {
+  padding: 0px;
+}
+
+.flexRow--productDescription :global(.vtex-store-components-3-x-container) {
+  padding: 0px;
+  margin: 0px 26px;
+}
 
 @media only screen and (min-width: 640px) {
   .flexRow--r2desktop {
@@ -403,6 +418,7 @@
   .flexRow--productMain :global(.vtex-store-components-3-x-container) {
     max-width: 1260px;
     padding: 0px;
+    margin: 0px auto;
   }
 
   .flexRowContent--sellingPrice {
@@ -412,6 +428,7 @@
 
   .flexRowContent--buyButton {
     padding: 0px;
+    margin: 30px 0px;
   }
 
   .flexRowContent--productName :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {

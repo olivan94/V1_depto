@@ -50,9 +50,11 @@
 
   "product-summary-image#shelf": {
     "props": {
-      "showBadge": false,
-      "aspectRatio": "1:1",
-      "maxHeight": 300
+      "showBadge": true,
+      "width": {
+        "desktop": 200,
+        "mobile": 120
+      }
     }
   },
   "stack-layout#prodsum": {
@@ -114,10 +116,14 @@
     "props": {
       "blockClass": "relacionados",
       "recomendation": "suggestions",
-      "productList":{
+      "productList": {
         "maxItems": 4,
-        "arrows": true,
-        "titleText": "Quem viu, viu também"
+        "arrows": {
+          "desktop": true,
+          "phone": false
+        },
+        "titleText": "Quem viu, viu também",
+        "minItemsPerPage": 2
       }
     }
   },

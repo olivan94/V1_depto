@@ -208,7 +208,7 @@
 
   .submenuWrapper--isOpen :global(.vtex-menu-2-x-styledLinkContent) {
     font: normal normal normal 14px/35px 'Nunito Sans';
-    padding-left: 41px;
+    padding: 0px 41px;
     color: #000000;
   }
 

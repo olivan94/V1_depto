@@ -35,10 +35,16 @@
 
 .imageContainer {
   text-align: center;
+  background: #f6f5f8;
+  height: 180px;
+  width: 180px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 
 .image {
-  border-radius: 0.25rem;
+  mix-blend-mode: multiply;
 }
 
 /* --------------------------------------------baixo-------------------------------------------------- */
@@ -46,4 +52,11 @@
 .element :global(.vtex-flex-layout-0-x-flexRowContent) {
   height: 35px;
   margin-bottom: 2px;
+}
+
+@media only screen and (min-width: 900px) {
+  .imageContainer {
+    height: 300px;
+    width: 300px;
+  }
 }

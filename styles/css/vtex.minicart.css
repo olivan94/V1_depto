@@ -2,9 +2,14 @@
   padding: 0px;
 }
 
-/* .minicartContainer :global(.vtex-button) {
-  padding: 0px;
-} */
+.minicartContainer :global(.vtex-button):focus {
+  background-color: #ffffff;
+  outline: #ffffff;
+}
+
+.minicartContainer :global(.vtex-button):hover {
+  background-color: #ffffff;
+}
 
 .openIconContainer {
   padding: 0px;

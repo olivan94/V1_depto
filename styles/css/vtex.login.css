@@ -14,6 +14,10 @@
   color: #17100D;
 }
 
+.container :global(.relative):focus {
+  outline: #ffffff;
+}
+
 .container :global(.vtex-button__label) {
   padding: 0px;
   width: 20px;
@@ -21,16 +25,7 @@
   margin-right: 20px;
 }
 
-.container .relative:focus {
-  border: none;
-}
-
-.container :global(.vtex-button):link {
-  border-color: #ffffff;
-  background-color: #ffffff;  
-}
-
-.container :global(.vtex-button):visited {
+.container :global(.vtex-button):focus {
   border-color: #ffffff;
   background-color: #ffffff;  
 }
