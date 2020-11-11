@@ -43,7 +43,7 @@
     "children": [
       "vtex.menu@2.x:menu#footer-about"
     ]
-  },
+  }, 
 
 
   "menu-item#footer-atendimento": {

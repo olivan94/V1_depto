@@ -6,23 +6,23 @@
 }
 
 .sliderLeftArrow {
-  background: #ffffff;
+  background-color: #ffffff !important;
   box-shadow: 0px 3px 6px #4F32FE11;
   height: 58px;
   width: 58px;
   border-radius: 29px;
-  top: 121px;
-  left: -1px;
+  top: 130px;
+  left: -5px;
 }
 
 .sliderRightArrow {
-  background: #ffffff;
+  background-color: #ffffff !important;
   box-shadow: 0px 3px 6px #4F32FE11;
   height: 58px;
   width: 58px;
   border-radius: 29px;
-  top: 121px;
-  right: 4px;
+  top: 130px;
+  right: -4px;
 }
 
 .caretIcon {
@@ -96,17 +96,28 @@
 }
 
 .sliderTrack--shelf-topSeller {
-  gap: 20px;
+  gap: 1rem;
 }
 
 @media only screen and (min-width: 640px) {
   .sliderTrack {
-    gap: 20px
+    gap: 1rem
   }
 
   .sliderLayoutContainer--shelf-topSeller {
     padding: 0px !important;
     max-width: 1314px;
     margin: 0px 18px;
+  }
+}
+
+@media only screen and  (min-width: 1020px) and (max-width: 1360px) {
+  /* .sliderTrack--shelf-topSeller {
+    transform: translate3d(-23.83%, 0px, 0px) !important;
+    width: 433% !important;
+  } */
+
+  .sliderTrackContainer--shelf-topSeller {
+    max-width:  92.65vw;
   }
 }

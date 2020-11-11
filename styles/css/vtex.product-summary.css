@@ -17,6 +17,14 @@
   } 
 }
 
+.clearLink {
+  align-items: center;
+}
+
+.element {
+  width: 43.48vw;
+}
+
 .nameContainer {
   justify-content: start;
   padding-top: 1rem;
@@ -36,8 +44,8 @@
 .imageContainer {
   text-align: center;
   background: #f6f5f8;
-  height: 180px;
-  width: 180px;
+  height: 43.48vw;
+  width: 43.48vw;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -45,16 +53,62 @@
 
 .image {
   mix-blend-mode: multiply;
+  height: 28.98vw;
 }
-
-/* --------------------------------------------baixo-------------------------------------------------- */
 
 .element :global(.vtex-flex-layout-0-x-flexRowContent) {
   height: 35px;
   margin-bottom: 2px;
 }
 
+@media only screen and (min-width: 640px) and (max-width: 899px) {
+  .element {
+    width: 30vw;
+  }
+
+  .image {
+    height: 21vw;
+  }
+
+  .imageContainer {
+    height: 30vw;
+    width: 30vw;
+  }
+}
+
 @media only screen and (min-width: 900px) {
+  .imageContainer {
+    height: 30vw;
+    max-width: 300px;
+    max-height: 300px;
+    width: 30vw;
+  }
+
+  .image {
+    height: 21vw;
+    max-height: 200px;
+  }
+
+  .element {
+    max-width: 300px;
+    width: 30vw;
+  }
+}
+
+@media only screen and (min-width: 1026px) {
+  .imageContainer {
+    height: 22.06vw;
+    max-width: 300px;
+    max-height: 300px;
+    width: 22.06vw;
+  }
+
+  .element {
+    width: 22.06vw;
+  }
+}
+
+@media only screen and (min-width: 1360px) {
   .imageContainer {
     height: 300px;
     width: 300px;

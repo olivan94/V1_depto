@@ -2,6 +2,7 @@
   "footer": {
     "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
   },
+  
   "footer-layout.desktop": {
     "children": [
       "newsletter",
@@ -155,6 +156,8 @@
     }
   },
 
+  // ----------------------------------------------------desk mobile--------------------------------------------------- 
+
   "footer-layout.mobile": {
     "children": [
       "newsletter",
@@ -170,8 +173,8 @@
 
   "flex-layout.row#footer-mobile-about": {
     "children": [
-      "rich-text#footer-mobile-about-title",
-      "vtex.menu@2.x:menu#footer-about"
+      // "rich-text#footer-mobile-about-title",
+      "menu-item#footer-about"
     ],
     "props": {
       "blockClass": "footer-menu-rows"
@@ -179,8 +182,8 @@
   },
   "flex-layout.row#footer-mobile-atendimento": {
     "children": [
-      "rich-text#footer-mobile-atendimento-title",
-      "vtex.menu@2.x:menu#footer-atendimento"
+      // "rich-text#footer-mobile-atendimento-title",
+      "menu-item#footer-atendimento"
     ],
     "props": {
       "blockClass": "footer-menu-rows"
@@ -188,8 +191,8 @@
   },
   "flex-layout.row#footer-mobile-ajuda": {
     "children": [
-      "rich-text#footer-mobile-ajuda-title",
-      "vtex.menu@2.x:menu#footer-ajuda"
+      // "rich-text#footer-mobile-ajuda-title",
+      "menu-item#footer-ajuda"
     ],
     "props": {
       "blockClass": "footer-menu-rows"

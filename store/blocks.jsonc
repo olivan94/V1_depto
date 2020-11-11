@@ -50,11 +50,13 @@
 
   "product-summary-image#shelf": {
     "props": {
-      "showBadge": true,
-      "width": {
-        "desktop": 200,
-        "mobile": 120
-      }
+      "showBadge": true
+      // "width": {
+      //   "desktop": 200,
+      //   "tablet": 190,
+      //   "mobile": 120
+      //   // "(min-width: 640px) and (max-width: 899px)": 120
+      // }
     }
   },
   "stack-layout#prodsum": {

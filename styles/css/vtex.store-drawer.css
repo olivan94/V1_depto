@@ -27,7 +27,7 @@
 
 
 
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 1025px) {
   .openIconContainer {
     color: #000000;
     max-height: 20px;

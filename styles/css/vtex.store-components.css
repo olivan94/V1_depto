@@ -13,6 +13,11 @@
   padding: 0;
 }
 
+.searchBarInnerContainer {
+  width: 898px;
+  max-width: 100%;
+}
+
 .searchBarContainer :global(.vtex-input-prefix__group) {
   border: none;
   border-radius: 0;
@@ -52,6 +57,7 @@
 
 .logoImage {
   padding-top: 15px;
+  margin-right: 69px;
 }
 
 .logoLink {
@@ -116,17 +122,61 @@
 
 .inputGroup--newsletter {
   display: flex;
-  color: #fff;
   flex-direction: column;
-  align-items: center;
+  align-items: baseline;
   padding-top: 24px;
   padding-bottom: 0px;
 }
 
 .inputGroup--newsletter :global(.vtex-input-prefix__group) {
-  border: none;
+  /* border: 1px solid transparent; */
   border-radius: 28px;
   height: 57px;
+}
+
+.inputGroup--newsletter :global(.vtex-input__error)  {
+  font: normal normal bold 12px 'Nunito Sans';
+  letter-spacing: 0.24px;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.inputGroup--newsletter :global(.vtex-input__error)::before  {
+  content: "ERRO:";
+  background-color: #FF134B;
+  width: 50px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  margin-right: 5px;
+}
+
+.confirmation--newsletter .container--newsletter {
+  flex-direction: column;
+}
+
+/* .confirmation--newsletter :global(.vtex-store-components-3-x-confirmationTitle--newsletter)::after {
+  content: "E-mail cadastrado com sucesso.";
+  color: #ffffff;
+} */
+
+.confirmation--newsletter .container--newsletter .confirmationTitle--newsletter {
+  color: #FFFFFF;
+  font: normal normal bold 24px 'Nunito Sans';
+}
+
+/* .confirmation--newsletter :global(.vtex-store-components-3-x-confirmationText--newsletter)::after {
+  content: "Agora você irá receber nossas novidades e promoções!";
+  color: #ffffff;
+} */
+
+.confirmation--newsletter .container--newsletter .confirmationText--newsletter {
+  color: #FFFFFF;
+  font: normal normal normal 16px 'Nunito Sans';
 }
 
 .inputGroup :global(.vtex-styleguide-9-x-hideDecorators) {
@@ -145,6 +195,8 @@
   letter-spacing: 0px;
   opacity: 1;
 }
+
+
 
 .buttonContainer {
   padding-top: 0px;
@@ -189,6 +241,8 @@
 .imageElement--mobileOsCara {
   max-height: 21px;
 }
+
+
 
 
 /* ---------------------------cima------------------------------ */
@@ -456,15 +510,13 @@
 }
 
 @media only screen and (min-width: 640px) {
-  .logoLink {
-    margin-left: 0px;
-  }
+  
   
   .container--newsletter {
     margin: auto;
     max-width: none;
     margin-top: 100px;
-    max-height: 305px;
+    height: 305px;
   }
 
   .form--newsletter {
@@ -491,10 +543,7 @@
     padding: 0;
   }
 
-  .logoImage {
-    padding-top: 17px;
-    margin-right: 69px;
-  }
+  
 
   .skuSelectorTextContainer {
     justify-content: flex-start;
@@ -514,11 +563,10 @@
 
 }
 
-@media only screen and (min-width: 1030px) {
+@media only screen and (min-width: 1025px) {
 
-  .searchBarInnerContainer {
-    width: 898px;
-    max-width: 100%;
+  .logoLink {
+    margin-left: 0px;
   }
 
   .searchBarContainer :global(.vtex-input-prefix__group) {
@@ -533,7 +581,7 @@
   .searchBarContainer ::placeholder {
     color: #847B91;
     font-weight: 400;
-    font: 14px/12px Nunito Sans;
+    font: 14px/12px 'Nunito Sans';
   }
   
   .searchBarContainer :global(.vtex-input__suffix){
@@ -553,5 +601,17 @@
   .carouselContainer {
     justify-content: flex-end;
     max-width: 620px;
+  }
+}
+
+@media only screen and (min-width:1020px) and (max-width: 1360px) {
+  .searchBarInnerContainer {
+    width: 66vw;
+    max-width: 100%;
+  }
+
+  .logoImage {
+    padding-top: 17px;
+    margin-right: 5.07vw;
   }
 }

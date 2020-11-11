@@ -12,6 +12,51 @@
   line-height: 50px;
 }
 
+.menuItemInnerDiv--footer-about {
+  background-color: #f6f5f8;
+  height: 51px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #E4DDEE;
+}
+
+.menuItemInnerDiv--footer-atendimento {
+  background-color: #f6f5f8;
+  height: 51px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #E4DDEE;
+}
+
+.menuItemInnerDiv--footer-ajuda {
+  background-color: #f6f5f8;
+  height: 51px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #E4DDEE;
+}
+
+.styledLinkContent--footer-about {
+  font-family: 'nunito sans';
+  font-weight: 700;
+  font-size: 16px;
+  color: #000;
+}
+
+.styledLinkContent--footer-atendimento {
+  font-family: 'nunito sans';
+  font-weight: 700;
+  font-size: 16px;
+  color: #000;
+}
+
+.styledLinkContent--footer-ajuda {
+  font-family: 'nunito sans';
+  font-weight: 700;
+  font-size: 16px;
+  color: #000;
+}
+
 .menuContainerNav {
   display: flex;
   justify-content: flex-start;

@@ -2,7 +2,7 @@
   "store.home": {
     "blocks": [
       "responsive-layout.desktop",
-      "responsive-layout.tablet",
+      // "responsive-layout.tablet",
       "responsive-layout.mobile",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
