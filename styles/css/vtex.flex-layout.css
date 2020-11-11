@@ -295,7 +295,7 @@
 
 .flexCol--productRightCol {
   margin: 0px;
-  max-width: 374px;
+  max-width: 90.34vw;
 }
 
 .flexRowContent--sellingPrice {
@@ -381,6 +381,11 @@
   padding: 0px;
 }
 
+.flexRow--productDescription {
+  display: flex;
+  justify-content: center;
+}
+
 .flexRow--productDescription :global(.vtex-store-components-3-x-container) {
   padding: 0px;
   margin: 0px 26px;
@@ -446,12 +451,15 @@
   }
 
   .flexCol--productRightCol {
-    margin-left: 64px;
-    margin-right: 106px;
+    margin-left: 4.7vw;
+    margin-right: 7.8vw;
+    width: 33.82vw;
+    max-width: 33.82vw;
   }
 
   .flexRow--productMain :global(.vtex-store-components-3-x-container) {
     max-width: 1260px;
+    width: 92.65vw;
     padding: 0px;
     margin: 0px auto;
   }
@@ -553,6 +561,18 @@
 
   .flexRowContent--banners .stretchChildrenWidth:last-child {
     margin-left: 0.8vw;
+  }
+
+  .flexRow--deskAboutUs :global(.vtex-store-components-3-x-container) {
+    width: 92.65vw
+  }
+}
+
+@media only screen and (min-width: 1360px) {
+  .flexCol--productRightCol {
+    margin-left: 64px;
+    margin-right: 106px;
+    max-width: 461px;
   }
 }
 

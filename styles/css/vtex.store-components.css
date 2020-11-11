@@ -393,6 +393,7 @@
 
 .carouselGaleryThumbs {
   max-width: 86.4px;
+  width: 6.35vw !important;
 }
 
 .productImagesThumb {
@@ -427,7 +428,7 @@
 .carouselGaleryCursor {
   padding: 0px;
   margin: 0px;
-  width: 374px;
+  width: 90.34vw;
 }
 
 .shippingContainer {
@@ -496,8 +497,8 @@
 }
 
 .productImagesGallerySlide {
-  width: 374px;
-  height: 374px;
+  width: 90.34vw;
+  height: 90.34vw;
   margin: 0px;
   display: flex;
   justify-content: center;
@@ -558,7 +559,8 @@
   }
 
   .carouselGaleryCursor {
-    width: 513px;
+    max-width: 513px;
+    width: 37.7vw
   }
 
 }
