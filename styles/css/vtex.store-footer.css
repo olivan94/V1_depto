@@ -31,6 +31,9 @@
   .footerLayout {
     margin-top: 58px;
   }
+}
+
+@media only screen and (min-width: 1026px) {
 
   .socialNetworksContainer {
     align-items: flex-start;

@@ -364,6 +364,10 @@
   width: 100%;
 }
 
+.productImagesContainer :global(.vtex-store-components-3-x-carouselContainer) {  
+  overflow: inherit;
+}
+
 .productNameContainer {
   font: normal normal normal 20px 'Nunito Sans';
   color: black;
@@ -615,5 +619,19 @@
   .logoImage {
     padding-top: 17px;
     margin-right: 5.07vw;
+  }
+}
+
+@media only screen and (min-width:640px) and (max-width: 1026px) {
+  .productImagesGallerySlide {
+    height: 37.7vw;
+  }
+
+  .productImageTag--main {
+    height: 30vw !important;
+  }
+
+  .carouselGaleryThumbs {
+    left: -30px;
   }
 }

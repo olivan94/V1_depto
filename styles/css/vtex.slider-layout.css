@@ -29,7 +29,11 @@
   color: #4f32fe;
 }
 
-.sliderTrackContainer {
+.sliderTrackContainer--carousel {
+  width: 100%;
+}
+
+.sliderTrackContainer--shelf-topSeller {
   max-width: 1260px;
   width: 92.65vw
 }
@@ -103,6 +107,11 @@
 @media only screen and (min-width: 640px) {
   .sliderTrack {
     gap: 1rem
+  }
+
+  .sliderTrackContainer--carousel2 {
+    width: 92.65vw;
+    max-width: 1260px;
   }
 
   .sliderLayoutContainer--shelf-topSeller {
